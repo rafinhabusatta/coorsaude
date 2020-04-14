@@ -1,0 +1,1 @@
+.post .page com margin 1.5 rem foi desabilitada a fim de remover a margin inferior do body, que estava impedindo o footer de ser fixado no bottom da home page.
