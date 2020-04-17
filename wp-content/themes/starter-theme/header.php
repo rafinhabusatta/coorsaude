@@ -21,7 +21,7 @@
 	<body <?php body_class(); ?>>
 		<header id="masthead" class="sticky-top">
 			<nav class="navbar navbar-expand-lg navbar-light fundo-coor">
-				<a href="" class="navbar-brand">
+				<a href="<?php echo site_url(); ?>" class="navbar-brand">
 					<img src="<?php bloginfo("template_directory"); ?>/img/logo.png" alt="CoorSaúde">
 				</a>
 				<button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#menu" aria-label="Menu de navegação">
@@ -38,46 +38,44 @@
 								</span>
 							</a>
 							<div class="dropdown-menu bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="">Histórico</a>
-								<a class="dropdown-item" href="">Equipe CoorSaúde</a>
 								<a class="dropdown-item" href="">Calendário de Reuniões</a>
 								<a class="dropdown-item" href="">Gestão 2017-2019</a>
 							</div>
 						</li> -->
-						<li class="nav-item dropdown">
-							<a class="nav-link" href="<?php echo site_url(); ?>/cenarios-de-pratica" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cenários de Prática</a>
-							<!-- <div class="dropdown-menu bg-submenu" aria-labelledby="navbarDropdown">
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo site_url(); ?>/cenarios-de-pratica">Cenários de Prática</a>
+							<!-- <div class="dropdown-menu bg-submenu" aria-labelledby="navbar-dropdown">
 								<a class="dropdown-item" href="">Distrito Glória/Cruzeiro/Cristal</a>
 								<a class="dropdown-item" href="">Distrito Centro</a>
 								<a class="dropdown-item" href="">Estágios Obrigatórios</a>
 								<a class="dropdown-item" href="">Novo Tutorial SMS 2019</a>
 							</div> -->
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comitê Gestor</a>
-							<div class="dropdown-menu bg-submenu" aria-labelledby="navbarDropdown">
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo site_url(); ?>/comite-gestor">Comitê Gestor</a>
+							<!-- <div class="dropdown-menu bg-submenu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="">Instâncias Participantes</a>
 								<a class="dropdown-item" href="">Calendário de Reuniões</a>
 								<a class="dropdown-item" href="">Projetos da UFRGS em Execução</a>
 								<a class="dropdown-item" href="">Atividade de Familiarização</a>
 								<a class="dropdown-item" href="">Seleção de Preceptores</a>
-							</div>
+							</div> -->
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Disciplinas Integradoras</a>
-							<div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo site_url(); ?>/disciplinas-integradoras">Disciplinas Integradoras</a>
+							<!-- <div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="">PIS I</a>
 								<a class="dropdown-item" href="">Semestre de Realização - PIS I</a>
 								<a class="dropdown-item" href="">Produções</a>
 								<a class="dropdown-item" href="">PIS II</a>
-							</div>
+							</div> -->
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
 							<div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="">Publicações</a>
-								<a class="dropdown-item" href="">Links</a>
-								<a class="dropdown-item" href="">Contato</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/contato">Contato</a>
 							</div>
 						</li>
 					</ul>

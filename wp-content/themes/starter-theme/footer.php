@@ -26,7 +26,7 @@
 	<script src="https://kit.fontawesome.com/bc723ac9fc.js" crossorigin="anonymous"></script>
 
 	<!-- MyJS -->
-	<script src="js/myJS.js"></script>
+	<script src="<?php bloginfo('template_directory') ?>/js/myjs.js"></script>
 
 </body>
 </html>
