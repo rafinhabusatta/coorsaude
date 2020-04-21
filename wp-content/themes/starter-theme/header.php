@@ -30,18 +30,6 @@
 				<div class="collapse navbar-collapse" id="menu">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a href="<?php echo site_url(); ?>" class="nav-link">Home</a></li>
-						<!-- <li class="nav-item dropdown">
-							<a class="nav-link" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Coorsaúde
-								<span>
-									<i class="fas fa-chevron-down"></i>
-								</span>
-							</a>
-							<div class="dropdown-menu bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="">Calendário de Reuniões</a>
-								<a class="dropdown-item" href="">Gestão 2017-2019</a>
-							</div>
-						</li> -->
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo site_url(); ?>/cenarios-de-pratica">Cenários de Prática</a>
 							<!-- <div class="dropdown-menu bg-submenu" aria-labelledby="navbar-dropdown">
@@ -70,12 +58,15 @@
 								<a class="dropdown-item" href="">PIS II</a>
 							</div> -->
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
+						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
 							<div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
-								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/contato">Contato</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
 							</div>
 						</li>
 					</ul>

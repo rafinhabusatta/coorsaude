@@ -4,9 +4,8 @@
     <div class="row">
         <div class="col-12 p-0">
             <div id="carousel-Coorsaude" class="carousel slide" data-ride="carousel" data-interval="false">
-                <div class="carousel-inner carousel">
+                <div class="carousel-inner">
                     <div class="carousel-item active bg-coor">
-                        <!-- <img class="d-block w-100" src="<?php bloginfo("template_directory"); ?>/img/ufrgs1.jpg" alt="Primeiro slide" width="800"> -->
                         <h1 class="coor">Coor<span class="saude">Saúde</span></h1>
                     </div>
                     <div class="carousel-item">
@@ -106,6 +105,17 @@
         </div>
         <div class="col-3 d-none d-md-block mt-4">
             <img src="<?php bloginfo("template_directory"); ?>/assets/RegimentoIcone.svg" alt="Ícone do documento do Regimento da Coordenadoria da Saúde" class="mt-5">
+        </div>
+    </div>
+    <div class="row distrito text-white p-4 p-md-5">
+        <div class="col-12 col-md-8 m-auto">
+            <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Calendário de Reuniões</h2>
+            <p class="my-2 px-2 p-md-0 text-justify">
+                As reuniões ordinárias da Coorsaúde acontecem todas as primeiras sextas-feiras do mês, das 10 às 12 horas. Para maiores informações, <a href="mailto:coordsaude@ufrgs.br?Subject=Calendário%20de%20Reuniões" class="font-weight-bold">envie um e-mail</a> para a CoorSaúde.
+            </p>
+        </div>
+        <div class="col-4 d-none d-md-block my-3">
+            <img src="<?php bloginfo("template_directory"); ?>/assets/calendar.svg" alt="Ícone de uma página web">
         </div>
     </div>
 </div>

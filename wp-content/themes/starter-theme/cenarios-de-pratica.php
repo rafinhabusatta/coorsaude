@@ -1,8 +1,8 @@
 <!-- Template name: Cenarios-Pratica -->
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-12 mt-5">
+    <div class="row p-3 p-md-5">
+        <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Cenários de Prática</h2>
             <p class="text-justify p-3 p-md-5 box-sombra">
                 Os Cenários de Prática são os locais onde são realizadas inúmeras atividades de estudo, extensão, e práticas de saúde pelos estudantes e profissionais da UFRGS dos cursos da Saúde. Os cenários preferenciais para atuação da Universidade são os Distritos Glória/Cruzeiro/Cristal e Centro da cidade de Porto Alegre, onde são desenvolvidos diversos projetos coordenados pela UFRGS em parceria com a SMS/POA.
@@ -69,12 +69,12 @@
             <img src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
         </div>
     </div>
-    <div class="row pb-5">
+    <div class="row p-4 p-md-5">
         <div class="col-12 col-md-8 m-auto">
             <h2 class="greenTitle my-5 text-center">Referências consultadas</h2>
-            <p class="font-weight-bold m-0"><a href="http://portoalegreemanalise.procempa.com.br/?regioes=10,0,0" target="_blank" class="font-weight-bold">Observada Poa-Distrito Glória/Cruzeiro/Cristal</a></p>
-            <p class="font-weight-bold m-0"><a href="http://portoalegreemanalise.procempa.com.br/?regiao=17_1_0" target="_blank" class="font-weight-bold">Observada Poa-Distrito Centro</a></p>
-            <p class="font-weight-bold m-0"><a href="http://www2.portoalegre.rs.gov.br/sms/default.php?reg=1&p_secao=837" target="_blank" class="font-weight-bold">Secretaria de Saúde de Porto Alegre</a></p>
+            <p class="m-0"><a href="http://portoalegreemanalise.procempa.com.br/?regioes=10,0,0" target="_blank" class="font-weight-bold">Observada Poa-Distrito Glória/Cruzeiro/Cristal</a></p>
+            <p class="m-0"><a href="http://portoalegreemanalise.procempa.com.br/?regiao=17_1_0" target="_blank" class="font-weight-bold">Observada Poa-Distrito Centro</a></p>
+            <p class="m-0"><a href="http://www2.portoalegre.rs.gov.br/sms/default.php?reg=1&p_secao=837" target="_blank" class="font-weight-bold">Secretaria de Saúde de Porto Alegre</a></p>
         </div>
         <div class="col-4 d-none d-md-block my-3">
             <img src="<?php bloginfo("template_directory"); ?>/assets/web-search.svg" alt="Ícone de pesquisas e referências">
@@ -286,7 +286,7 @@
         <div class="col-12 col-md-8 m-auto">
             <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Novo Tutorial SMS para 2019</h2>
             <p class="my-2 px-2 p-md-0 text-justify">
-                <a href="<?php bloginfo("template_directory"); ?>/docs/Tutorial-Termo-Online-SMS-IMESF - 31_10-para-2019-1.pdf" target="_blank" class="font-weight-bold">Aqui</a> você encontra um tutorial para preenchimento correto do Formulário FormSUS para os estágios junto à Secretaria Municipal de Saúde de Porto Alegre (SMS-Poa)
+                <a href="<?php bloginfo("template_directory"); ?>/docs/Tutorial-Termo-Online-SMS-IMESF - 31_10-para-2019-1.pdf" target="_blank" class="font-weight-bold">Aqui</a> você encontra um tutorial para preenchimento correto do Formulário FormSUS para os estágios junto à Secretaria Municipal de Saúde de Porto Alegre (SMS-Poa).
             </p>
         </div>
         <div class="col-4 d-none d-md-block my-3">
