@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="col-12">
-            <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Secretaria da CoorSaúde</h3>
+            <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Apoio Pedagógico e Secretaria CoorSaúde</h3>
         </div>
         <div class="col-12 col-md-5 col-lg-4 mb-4">
             <div class="b-left box-equipe">

@@ -136,6 +136,10 @@ body{
     h3.equipe-nomes{
         font-size: 22px;
     }
+/* CONTATO */
+.contato{
+    min-height: 500px;
+}
 /* RODAPÉ */
 .footer{
     background: url(../assets/BackFooter.svg) no-repeat center top;

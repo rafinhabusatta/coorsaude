@@ -5,13 +5,13 @@
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Cenários de Prática</h2>
             <p class="text-justify p-3 p-md-5 box-sombra">
-                Os Cenários de Prática são os locais onde são realizadas inúmeras atividades de estudo, extensão, e práticas de saúde pelos estudantes e profissionais da UFRGS dos cursos da Saúde. Os cenários preferenciais para atuação da Universidade são os Distritos Glória/Cruzeiro/Cristal e Centro da cidade de Porto Alegre, onde são desenvolvidos diversos projetos coordenados pela UFRGS em parceria com a SMS/POA.
+                Os Cenários de Prática são os locais onde são realizadas atividades de estudo, extensão, e práticas de saúde pelos estudantes e profissionais da UFRGS dos cursos da Saúde. Os cenários preferenciais para atuação da Universidade são os Distritos Glória/Cruzeiro/Cristal e Centro da cidade de Porto Alegre, onde são desenvolvidos diversos projetos coordenados pela UFRGS em parceria com a SMS/POA.
             </p>
         </div>
     </div>
     <div class="row p-3 p-md-5">
         <div class="col-12">
-            <h2 class="greenTitle text-center mb-4">Distrito Glória/Cruzeiro/Cristal</h2>
+            <h2 class="greenTitle text-center mb-4">Distrito Glória-Cruzeiro-Cristal</h2>
         </div>
         <div class="col-12 col-md-6">
             <img src="<?php bloginfo("template_directory"); ?>/img/distrito-gcc.png" alt="Imagem do perímetro do Distrito Glória, Cruzeiro, Cristal, contemplando a região centro-sul de Porto Alegre, entre os bairros Cristal, Santa Tereza, Medianeira, Glória, Cascata e Belém Velho">
@@ -30,9 +30,9 @@
     </div>
     <div class="row distrito text-white p-4 p-md-5">
         <div class="col-12 col-md-8 m-auto">
-            <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Página do Distrito Glória/Cruzeiro/Cristal</h2>
+            <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Página do Distrito Glória-Cruzeiro-Cristal</h2>
             <p class="my-2 px-2 p-md-0 text-justify">
-                Para acessar a página do Distrito Glória/Cruzeiro/Cristal no site da Prefeitura Municipal de Porto Alegre, clique <a href="http://www2.portoalegre.rs.gov.br/sms/default.php?p_secao=837" target="_blank" class="font-weight-bold">aqui</a>
+                Para acessar a página do Distrito Glória-Cruzeiro-Cristal no site da Prefeitura Municipal de Porto Alegre, clique <a href="http://www2.portoalegre.rs.gov.br/sms/default.php?p_secao=837" target="_blank" class="font-weight-bold">aqui</a>
             </p>
         </div>
         <div class="col-4 d-none d-md-block my-3">

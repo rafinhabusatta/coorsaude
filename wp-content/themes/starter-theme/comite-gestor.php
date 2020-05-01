@@ -53,7 +53,7 @@
             <img src="<?php bloginfo("template_directory"); ?>/assets/calendar.svg" alt="Ícone de uma página web">
         </div>
     </div>
-    <div class="row p-3 p-md-5">
+    <!-- <div class="row p-3 p-md-5">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Projetos da UFRGS em Execução</h2>
             <div class="box-sombra p-3 p-md-5">
@@ -87,7 +87,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="row p-4 p-md-5">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Familiarização</h2>
