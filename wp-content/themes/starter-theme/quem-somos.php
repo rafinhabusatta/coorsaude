@@ -27,7 +27,31 @@
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes mb-3">Núcleo de Coordenação</h3>
         </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
+        
+            <?php 
+                $args = array(
+                'post_type' => 'team_coordenacao',
+                );
+                $coordenacao = new WP_Query ( $args );
+            ?>
+            <?php if ($coordenacao -> have_posts()) : while ($coordenacao -> have_posts()) : $coordenacao -> the_post(); ?>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                    <div class="b-left box-equipe">
+                        <h3 class="font-weight-bold">
+                            <?php the_title() ?>
+                        </h3>
+                        <p class="mb-3">
+                            <?php echo get_field("cargo")?>
+                        </p>
+                        <p>
+                            Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
+                        </p>
+                    </div>
+                </div>
+            <?php endwhile; endif; ?>
+        
+            
+        <!-- <div class="col-12 col-md-5 col-lg-4 mb-4">
             <div class="b-left box-equipe">
                 <h3 class="font-weight-bold">
                     Profa. Ramona Fernanda Ceriotti Toassi (Odontologia)
@@ -65,11 +89,34 @@
                     Contato: <a class="font-weight-bold" href="mailto: luiz.alvarenga@ufrgs.br">luiz.alvarenga@ufrgs.br</a>
                 </p>
             </div>
-        </div>
+        </div> -->
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Apoio Pedagógico e Secretaria CoorSaúde</h3>
         </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
+        
+        <?php 
+                $args = array(
+                'post_type' => 'team_secretaria',
+                );
+                $coordenacao = new WP_Query ( $args );
+            ?>
+            <?php if ($coordenacao -> have_posts()) : while ($coordenacao -> have_posts()) : $coordenacao -> the_post(); ?>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                    <div class="b-left box-equipe">
+                        <h3 class="font-weight-bold">
+                            <?php the_title() ?>
+                        </h3>
+                        <p class="mb-3">
+                            <?php echo get_field("cargo")?>
+                        </p>
+                        <p>
+                            Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
+                        </p>
+                    </div>
+                </div>
+            <?php endwhile; endif; ?>
+
+        <!-- <div class="col-12 col-md-5 col-lg-4 mb-4">
             <div class="b-left box-equipe">
                 <h3 class="font-weight-bold">
                     Márcio Hoff
@@ -107,7 +154,7 @@
                     Contato: <a class="font-weight-bold" href="mailto: rafael.busatta@inf.ufrgs.br">rafael.busatta@inf.ufrgs.br</a>
                 </p>
             </div>
-        </div>
+        </div> -->
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Membros da CoorSaúde Representantes das COMGRADS</h3>
         </div>
@@ -386,3 +433,17 @@
     </div> 
 </div>
 <?php get_footer(); ?>
+
+<?php 
+    function create_coordenacao($nome, $cargo, $contato){
+        $directory = get_bloginfo("template_directory");
+
+        $html .= '<div class="col-12 col-md-5 col-lg-4 mb-4">';
+        $html .= '<div class="b-left box-equipe">';
+        $html .= '<h3 class="font-weight-bold">$nome</h3>';
+        $html .= '<p class="mb-3">$cargo</p>';
+        $html .= '<p> Contato: <a class="font-weight-bold" href="mailto: $contato">$contato</a></p>';
+        $html .= '</div>';
+        $html .= '</div>';
+    }
+?>
