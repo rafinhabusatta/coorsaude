@@ -27,422 +27,103 @@
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes mb-3">Núcleo de Coordenação</h3>
         </div>
-        
-            <?php 
-                $args = array(
-                'post_type' => 'team_coordenacao',
-                );
-                $coordenacao = new WP_Query ( $args );
-            ?>
-            <?php if ($coordenacao -> have_posts()) : while ($coordenacao -> have_posts()) : $coordenacao -> the_post(); ?>
-                <div class="col-12 col-md-5 col-lg-4 mb-4">
-                    <div class="b-left box-equipe">
-                        <h3 class="font-weight-bold">
-                            <?php the_title() ?>
-                        </h3>
-                        <p class="mb-3">
-                            <?php echo get_field("cargo")?>
-                        </p>
-                        <p>
-                            Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
-                        </p>
-                    </div>
+        <?php 
+            $args = array(
+            'post_type' => 'team_coordenacao',
+            );
+            $coordenacao = new WP_Query ( $args );
+        ?>
+        <?php if ($coordenacao -> have_posts()) : while ($coordenacao -> have_posts()) : $coordenacao -> the_post(); ?>
+            <div class="col-12 col-md-5 col-lg-4 mb-4">
+                <div class="b-left box-equipe">
+                    <h3 class="font-weight-bold">
+                        <?php the_title() ?>
+                    </h3>
+                    <p class="mb-3">
+                        <?php echo get_field("cargo")?>
+                    </p>
+                    <p>
+                        Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
+                    </p>
                 </div>
-            <?php endwhile; endif; ?>
-        
-            
-        <!-- <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Profa. Ramona Fernanda Ceriotti Toassi (Odontologia)
-                </h3>
-                <p class="mb-3">
-                    Coordenadora
-                </p>
-                <p>
-                    Contato: <a class="font-weight-bold" href="mailto: ramona.fernanda@ufrgs.br">ramona.fernanda@ufrgs.br</a>
-                </p>
             </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Profa. Saionara Araújo Wagner (Medicina Veterinária)
-                </h3>
-                <p class="mb-3">
-                    Vice-coordenadora
-                </p>
-                <p>
-                    Contato: <a class="font-weight-bold" href="mailto: saionara.wagner@ufrgs.br">saionara.wagner@ufrgs.br</a>
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Prof. Luiz Fernando Calage Alvarenga  (Fisioterapia)
-                </h3>
-                <p class="mb-3">
-                    Terceiro docente da coordenação
-                </p>
-                <p>
-                    Contato: <a class="font-weight-bold" href="mailto: luiz.alvarenga@ufrgs.br">luiz.alvarenga@ufrgs.br</a>
-                </p>
-            </div>
-        </div> -->
+        <?php endwhile; endif; ?>
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Apoio Pedagógico e Secretaria CoorSaúde</h3>
         </div>
-        
         <?php 
-                $args = array(
-                'post_type' => 'team_secretaria',
-                );
-                $coordenacao = new WP_Query ( $args );
-            ?>
-            <?php if ($coordenacao -> have_posts()) : while ($coordenacao -> have_posts()) : $coordenacao -> the_post(); ?>
-                <div class="col-12 col-md-5 col-lg-4 mb-4">
-                    <div class="b-left box-equipe">
-                        <h3 class="font-weight-bold">
-                            <?php the_title() ?>
-                        </h3>
-                        <p class="mb-3">
-                            <?php echo get_field("cargo")?>
-                        </p>
-                        <p>
-                            Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
-                        </p>
-                    </div>
+            $args = array(
+            'post_type' => 'team_secretaria',
+            );
+            $coordenacao = new WP_Query ( $args );
+        ?>
+        <?php if ($coordenacao -> have_posts()) : while ($coordenacao -> have_posts()) : $coordenacao -> the_post(); ?>
+            <div class="col-12 col-md-5 col-lg-4 mb-4">
+                <div class="b-left box-equipe">
+                    <h3 class="font-weight-bold">
+                        <?php the_title() ?>
+                    </h3>
+                    <p class="mb-3">
+                        <?php echo get_field("cargo")?>
+                    </p>
+                    <p>
+                        Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
+                    </p>
                 </div>
-            <?php endwhile; endif; ?>
-
-        <!-- <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Márcio Hoff
-                </h3>
-                <p class="mb-3">
-                    Técnico em Assuntos Educacionais
-                </p>
-                <p>
-                    Contato: <a class="font-weight-bold" href="mailto: coordsaude@ufrgs.br">coordsaude@ufrgs.br</a>
-                </p>
             </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Maria Luiza Vieira Borges
-                </h3>
-                <p class="mb-3">
-                    Bolsista
-                </p>
-                <p>
-                    Contato: <a class="font-weight-bold" href="mailto: marialuiza_vborges@hotmail.com">marialuiza_vborges@hotmail.com</a>
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Rafael Lacerda Busatta
-                </h3>
-                <p class="mb-3">
-                    Bolsista de Informática
-                </p>
-                <p>
-                    Contato: <a class="font-weight-bold" href="mailto: rafael.busatta@inf.ufrgs.br">rafael.busatta@inf.ufrgs.br</a>
-                </p>
-            </div>
-        </div> -->
+        <?php endwhile; endif; ?>
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Membros da CoorSaúde Representantes das COMGRADS</h3>
         </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Bacharelado em Saúde Coletiva</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Frederico Viana Machado
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Dário Frederico Pasche
-                </h3>
-                <p>
-                    Suplente
-                </p>
+        <?php 
+            $args = array(
+            'post_type' => 'team_membros',
+            );
+            $membros = new WP_Query ( $args );
+        ?>
+        <?php if ($membros -> have_posts()) : while ($membros -> have_posts()) : $membros -> the_post(); ?>
+            <div class="col-12 col-md-5 col-lg-4 mb-4">
+                <h3 class="font-weight-bold"><?php the_title() ?></h3>
+                <div class="b-left box-equipe">
+                    <h3 class="font-weight-bold">
+                        <?php echo get_field("titular")?>
+                    </h3>
+                    <p class="mb-3">
+                        Titular
+                    </p>
+                    <h3 class="font-weight-bold">
+                        <?php echo get_field("suplente")?>
+                    </h3>
+                    <p>
+                        Suplente
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Biomedicina</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    João Henrique Corrêa Kanan
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Alex Sander da Rosa Araújo
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Ciências Biológicas</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Katia Silva
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Mara Rejane Ritter
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Educação Física</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Luiz Fernando Silva Bilibio
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    José Geraldo Soares Damico
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Enfermagem</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Carmem Lucia Motin DuroNome
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Erica Rosalba Mallmann Duarte
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Farmácia</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Diogo Pilger
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Aline Rigon Zimmer
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Fisioterapia</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Luiz Fernando Calage Alvarenga
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Ângela Peña Ghisleni
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Fonoaudiologia</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Ana Paula Rigatti Scherer
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Márcio Pezzini França
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Medicina</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Rodrigo Caprio Leite de Castro
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Roberto Mário Silveira Issler
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Medicina Veterinária</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Saionara Araújo Wagner
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Márcia Monks Jantzen
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Nutrição</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                     Eliziane Nicolodi Francescato Ruiz
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Ana Beatriz Almeida de Oliveira
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Odontologia</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Ramona Fernanda Ceriotti Toassi
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Luciane Maria Pilotto
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Psicologia</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Vera Lúcia Pasini
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Jaqueline Tittoni
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Serviço Social</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Vanessa Maria Panozzo
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Míriam Thais Guterres Dias
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4">
-            <h3 class="font-weight-bold">Bacharelado em Políticas Públicas</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Marília Luz David
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Andréa Fachel Leal
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 mb-4 mr-lg-auto">
-            <h3 class="font-weight-bold">Representantes da Prograd</h3>
-            <div class="b-left box-equipe">
-                <h3 class="font-weight-bold">
-                    Letícia Prezzi Fernandes
-                </h3>
-                <p class="mb-3">
-                    Titular
-                </p>
-                <h3 class="font-weight-bold">
-                    Cíntia Inês Boll
-                </h3>
-                <p>
-                    Suplente
-                </p>
-            </div>
-        </div>
+        <?php endwhile; endif; ?>
     </div> 
 </div>
 <?php get_footer(); ?>
 
-<?php 
+<?php
     function create_coordenacao($nome, $cargo, $contato){
-        $directory = get_bloginfo("template_directory");
-
         $html .= '<div class="col-12 col-md-5 col-lg-4 mb-4">';
         $html .= '<div class="b-left box-equipe">';
         $html .= '<h3 class="font-weight-bold">$nome</h3>';
         $html .= '<p class="mb-3">$cargo</p>';
         $html .= '<p> Contato: <a class="font-weight-bold" href="mailto: $contato">$contato</a></p>';
+        $html .= '</div>';
+        $html .= '</div>';
+    }
+?>
+<?php
+    function create_membros($curso, $titular, $suplente){
+        $html .= '<div class="col-12 col-md-5 col-lg-4 mb-4">';
+        $html .= '<h3 class="font-weight-bold">$curso</h3>';
+        $html .= '<div class="b-left box-equipe">';
+        $html .= '<h3 class="font-weight-bold">$titular</h3>';
+        $html .= '<p class="mb-3">Titular</p>';
+        $html .= '<h3 class="font-weight-bold">$suplente</h3>';
+        $html .= '<p>Suplente</p>';
         $html .= '</div>';
         $html .= '</div>';
     }
