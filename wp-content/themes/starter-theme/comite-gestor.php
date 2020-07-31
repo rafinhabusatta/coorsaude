@@ -1,13 +1,19 @@
 <!-- Template name: Comite-Gestor -->
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="row p-3 p-md-5">
+    <div class="row p-3 p-md-5 bg-cinza">
         <div class="col-12">
-            <h2 class="greenTitle text-center mb-4">Comitê Gestor</h2>
-            <div class="p-3 p-md-5 box-sombra">
+            <h2 class="greenTitle text-center mb-4">Comissão de Gestão e Acompanhamento Local (CGAL)</h2>
+            <div class="p-md-3">
                 <p class="text-justify">
-                    Em 2008, foi instituído a Comissão Gestora Local do Projeto Pró-Saúde II, operando através de reuniões quinzenais no Distrito Glória/Cruzeiro/Cristal. Estas reuniões possibilitaram a problematização do cenário de prática, com aproximação entre os profissionais do Distrito e a UFRGS e o acompanhamento da aplicação de recursos. Esta formação inicial contava com representantes da Universidade, da Gestão em nível técnico e administrativo e do Conselho Municipal da Saúde.
+                    Em 2008, instituída a Comissão de Gestão e Acompanhamento Local (CGAL), conhecida como Comitê Gestor, operando através de reuniões quinzenais no Distrito Glória-Cruzeiro-Cristal. Estas reuniões possibilitaram a problematização do cenário de prática, com aproximação entre os profissionais do Distrito e a UFRGS e o acompanhamento da aplicação de recursos. Esta formação inicial contava com representantes da Universidade, da Gestão em nível técnico e administrativo e do Conselho Municipal da Saúde.
                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="row p-3 px-md-5 pt-md-4 pb-md-0">
+        <div class="col-12">
+            <div class="p-md-3">
                 <p class="text-justify">
                     Com a passagem da gestão do Pró-Saúde II para a CoorSaúde em maio de 2011, acordou-se uma nova configuração para o Comitê Gestor, com a inclusão de professores representantes dos projetos em saúde da UFRGS em execução no Distrito. A partir de 20 de junho de 2011, o Comitê Gestor passa ter a seguinte composição: CoorSaúde, Pró-Saúde I da Odontologia; PET Saúde da Família, PET Saúde Mental, Horto Comunitário; Telessaúde; Atividade Integradora; Gerência Distrital; Equipe de Desenvolvimento de Servidores da Saúde; Conselho Municipal de Saúde, Representação discente. A representação dos trabalhadores está sendo providenciada.
                 </p>
@@ -15,9 +21,9 @@
                     O Comitê Gestor é responsável pela gestão política e administrativa do projeto Pró-Saúde II e pela organização das demandas originárias da Universidade e do Distrito, buscando a integração entre ensino e serviço. O controle social, pela representação do Conselho Municipal de Saúde, acompanha e monitora as ações propostas.
                 </p>
                 <p class="text-justify">
-                No primeiro semestre de 2013, os professores participantes da Coordenadoria da Saúde realizaram uma série de debates e discussões que culminou na inclusão do Distrito Centro como cenário de prática para os estudantes dos cursos da área da saúde da UFRGS. Ficou acordado entre a Gerência do Distrito GCC e a UFRGS, que o Distrito Centro fará parte deste Conselho Gestor.
-                </p>     
-            </div>
+                    No primeiro semestre de 2013, os professores participantes da Coordenadoria da Saúde realizaram uma série de debates e discussões que culminou na inclusão do Distrito Centro como cenário de prática para os estudantes dos cursos da área da saúde da UFRGS. Ficou acordado entre a Gerência do Distrito GCC e a UFRGS, que o Distrito Centro fará parte deste Conselho Gestor.
+                </p>
+            </div>     
         </div>
     </div>
     <div class="row p-3 p-md-5">
@@ -46,7 +52,8 @@
         <div class="col-12 col-md-8 m-auto">
             <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Calendário de Reuniões</h2>
             <p class="my-2 px-2 p-md-0 text-justify">
-                O Comitê Gestor tem suas reuniões ordinárias todas as quartas quartas-feiras de cada mês, das 13h e 30 min às 15h e 30 min, alternando o local entre a Gerência Centro e a Gerência Gloria-Cruzeiro-Cristal. Para maiores informações, <a href="mailto:coordsaude@ufrgs.br?Subject=Calendário%20de%20Reuniões" class="font-weight-bold">envie um e-mail</a> para a CoorSaúde.
+                O Comitê Gestor tem suas reuniões ordinárias nas últimas sextas-feiras de cada mês, das 10h às 12h, alternando o local entre a Gerência Centro e a Gerência Glória-Cruzeiro-Cristal. Desde março, as reuniões acontecem de forma virtual, pela Plataforma Mconf UFRGS. Para maiores informações, acesse o calendário <a href="<?php bloginfo("template_directory"); ?>/docs/calendario-comite-gestor-2020.pdf" target="_blank" class="font-weight-bold">aqui</a>.
+                <!-- <a href="mailto:coordsaude@ufrgs.br?Subject=Calendário%20de%20Reuniões" class="font-weight-bold">envie um e-mail</a> -->
             </p>
         </div>
         <div class="col-4 d-none d-md-block my-3">
@@ -92,7 +99,7 @@
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Familiarização</h2>
             <p class="my-2 px-2 p-md-0 text-justify">
-                Familiarização com os Distritos Docentes Assistenciais Glória-Cruzeiro-Cristal e Centro é uma atividadede integração ensino-serviço-comunidade que ocorre no início de cada semestre letivo.
+                Familiarização com os Distritos Docentes Assistenciais Glória-Cruzeiro-Cristal e Centro é uma atividade de integração ensino-serviço-comunidade que ocorre no início de cada semestre letivo.
             </p>
             <p class="my-2 px-2 p-md-0 text-justify">
                 Tem como objetivo apresentar para estudantes de graduação e pós-graduação, profissionais da saúde, professores e demais interessados os serviços de saúde existentes nesses territórios e seu funcionamento, ações e programas desenvolvidos, o papel do Controle Social e as principais ações desenvolvidas pela UFRGS na perspectiva da integração ensino-serviço-comunidade.

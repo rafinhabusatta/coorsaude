@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -29,47 +29,34 @@
 				</button>
 				<div class="collapse navbar-collapse" id="menu">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a href="<?php echo site_url(); ?>" class="nav-link">Home</a></li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo site_url(); ?>/cenarios-de-pratica">Cenários de Prática</a>
-							<!-- <div class="dropdown-menu bg-submenu" aria-labelledby="navbar-dropdown">
-								<a class="dropdown-item" href="">Distrito Glória/Cruzeiro/Cristal</a>
-								<a class="dropdown-item" href="">Distrito Centro</a>
-								<a class="dropdown-item" href="">Estágios Obrigatórios</a>
-								<a class="dropdown-item" href="">Novo Tutorial SMS 2019</a>
-							</div> -->
+							<a href="<?php echo site_url(); ?>/coronavirus" class="nav-link">Coronavírus</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?php echo site_url(); ?>/estagios" class="nav-link">Estágios</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?php echo site_url(); ?>/cenarios-de-pratica" class="nav-link">Cenários de Prática</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo site_url(); ?>/comite-gestor">Comitê Gestor</a>
-							<!-- <div class="dropdown-menu bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="">Instâncias Participantes</a>
-								<a class="dropdown-item" href="">Calendário de Reuniões</a>
-								<a class="dropdown-item" href="">Projetos da UFRGS em Execução</a>
-								<a class="dropdown-item" href="">Atividade de Familiarização</a>
-								<a class="dropdown-item" href="">Seleção de Preceptores</a>
-							</div> -->
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo site_url(); ?>/disciplinas-integradoras">Disciplinas Integradoras</a>
-							<!-- <div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="">PIS I</a>
-								<a class="dropdown-item" href="">Semestre de Realização - PIS I</a>
-								<a class="dropdown-item" href="">Produções</a>
-								<a class="dropdown-item" href="">PIS II</a>
-							</div> -->
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
-						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="/publicacoes">Publicações</a>
+						</li> -->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
 							<div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/contato">Contato</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
 							</div>
 						</li>
 					</ul>
 				</div>
-			</nav><!-- #site-navigation -->
-		</header><!-- #masthead -->
+			</nav>
+		</header>

@@ -45,7 +45,7 @@
         <div class="col-12 col-md-6">
             <h2 class="greenTitleSpecial text-center text-md-left">Sobre a CoorSaúde</h2>
             <p class="text-justify">
-                A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Graduação(ProGrad)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Insitucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
+                A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Graduação(ProGrad)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
                 <!-- <span id="more" class=""></span> <button class="font-weight-bold" id="btnLeia" onclick="ReadMoreLess()">Leia mais...</button> -->
             </p>
         </div>
@@ -92,13 +92,13 @@
             <p class="my-5 px-2 p-md-0 text-justify">
                 Em 2018, a CoorSaúde completou dez anos de atividade. Em comemoração realizou-se o seminário Balanço e Perspectivas de Reorientação Profissional e Integração Ensino-Serviço, com o debate de diversos temas<span id="dots-seminario">...</span>
                 <span id="more-seminario" class="d-none">
-                    “Balanço dos principais marcos da integração Universidade e SUS – COMO NOS ORGANIZAMOS JUNTOS?”, “Análise histórico-contextual e perspectivas da integração ensino-serviço-comunidade”, “Cenários e atores de transformação – disciplinas Práticas Integradas em Saúde I e II; PET-Saúde”, “Saúde e Movimentos Sociais - Roda de Conversa com lideranças dos movimentos sociais da saúde, Conselho Distrital de Saúde, Projeto Memórias de Barracão”, “Roda de conversa sobre Diretrizes Curriculares Nacionais (DCN) nos cursos de saúde com Entidades Nacionais de Ensino, Conselhos Profissionais da Saúde e Coordenadores de Curso de Graduação”, “As DCN e a Reorientação da Formação Profissional dos Cursos da Saúde”, “Sistematização da trajetória de Reorientação dos Cursos de Graduação da Saúde na UFRGS”, “Apresentação da história de Reorientação de Formação dos Cursos da Área da Saúde (vídeos)” e “Análise da conjuntura da saúde e cenário de resistência e perspectivas da integração Universidade e SUS”. Também houve exposições de pôsteres e tendas dos movimentos sociais. O seminário reuniu 230 participantes, contando com a presença de estudantes, professores, trabalhadores e gestores do SUS, e representantes da gestão da Universidade.
+                    “Balanço dos principais marcos da integração Universidade e SUS – COMO NOS ORGANIZAMOS JUNTOS?”, “Análise histórico-contextual e perspectivas da integração ensino-serviço-comunidade”, “Cenários e atores de transformação – disciplinas Práticas Integradas em Saúde I e II; PET-Saúde”, “Saúde e Movimentos Sociais - Roda de Conversa com lideranças dos movimentos sociais da saúde, Conselho Distrital de Saúde, Projeto Memórias de Barracão”, “Roda de conversa sobre Diretrizes Curriculares Nacionais (DCN) nos cursos de saúde com Entidades Nacionais de Ensino, Conselhos Profissionais da Saúde e Coordenadores de Curso de Graduação”, “As DCN e a Reorientação da Formação Profissional dos Cursos da Saúde”, “Sistematização da trajetória de Reorientação dos Cursos de Graduação da Saúde na UFRGS”, “Apresentação da história de Reorientação de Formação dos Cursos da Área da Saúde (videos)” e “Análise da conjuntura da saúde e cenário de resistência e perspectivas da integração Universidade e SUS”. Também houve exposições de pôsteres e tendas dos movimentos sociais. O seminário reuniu 230 participantes, contando com a presença de estudantes, professores, trabalhadores e gestores do SUS, e representantes da gestão da Universidade.
                 </span>
                 <button class="btn-leia" id="btn-seminario" onclick="ReadSeminario()">Leia mais</button>
             </p>
         </div>
     </div>
-    <div class="row regimento pb-5">
+    <div class="row regimento p-5 pb-5">
         <div class="col-12 col-md-8 mt-4">
             <h2 class="greenTitle my-5 text-center text-md-left">Nosso Regimento</h2>
             <p class="pt-4">Nosso Regimento pode ser acessado clicando <a href="<?php bloginfo("template_directory"); ?>/docs/RegimentoCoorSaúde.pdf" target="_blank" class="font-weight-bold">aqui</a></p>

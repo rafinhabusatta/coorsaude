@@ -39,6 +39,10 @@ body{
     .saude{
         color: #4DBA80;
     }
+/* BACKGROUNDS */
+    .bg-cinza{
+        background-color: #fbf7f7;
+    }
 /* MENU DE NAVEGAÇÃO */
     .fundo-coor{
         /* background-image:linear-gradient(50deg, #9dd3af, #90cfa6, #82cb9d, #74c695, #65c28c, #59bd90, #4fb793, #46b196, #51a79e, #649d9e, #769296, #848788); */
