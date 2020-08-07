@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row p-3 px-md-5 pt-md-4 pb-md-0">
-        <div class="col-12">
+        <div class="col-12 col-lg-8">
             <div class="p-md-3">
                 <p class="text-justify">
                     Com a passagem da gestão do Pró-Saúde II para a CoorSaúde em maio de 2011, acordou-se uma nova configuração para o Comitê Gestor, com a inclusão de professores representantes dos projetos em saúde da UFRGS em execução no Distrito. A partir de 20 de junho de 2011, o Comitê Gestor passa ter a seguinte composição: CoorSaúde, Pró-Saúde I da Odontologia; PET Saúde da Família, PET Saúde Mental, Horto Comunitário; Telessaúde; Atividade Integradora; Gerência Distrital; Equipe de Desenvolvimento de Servidores da Saúde; Conselho Municipal de Saúde, Representação discente. A representação dos trabalhadores está sendo providenciada.
@@ -24,6 +24,12 @@
                     No primeiro semestre de 2013, os professores participantes da Coordenadoria da Saúde realizaram uma série de debates e discussões que culminou na inclusão do Distrito Centro como cenário de prática para os estudantes dos cursos da área da saúde da UFRGS. Ficou acordado entre a Gerência do Distrito GCC e a UFRGS, que o Distrito Centro fará parte deste Conselho Gestor.
                 </p>
             </div>     
+        </div>
+        <div class="col-12 col-lg-4">
+            <figure class="figure">
+                <img  class="figure-img img-fluid rounded" src="<?php bloginfo("template_directory"); ?>/img/comite-gestor.jpeg" alt="Equipe  Comitê Gestor">
+                <figcaption class="figure-caption">Equipe Comitê Gestor</figcaption>
+            </figure>
         </div>
     </div>
     <div class="row p-3 p-md-5">
