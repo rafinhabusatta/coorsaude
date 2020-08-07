@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row p-3 px-md-5 pt-md-4 pb-md-0">
-        <div class="col-12">
+        <div class="col-12 col-lg-8">
             <div class="p-md-3">
                 <p class="text-justify">
                     Com a passagem da gestão do Pró-Saúde II para a CoorSaúde em maio de 2011, acordou-se uma nova configuração para o Comitê Gestor, com a inclusão de professores representantes dos projetos em saúde da UFRGS em execução no Distrito. A partir de 20 de junho de 2011, o Comitê Gestor passa ter a seguinte composição: CoorSaúde, Pró-Saúde I da Odontologia; PET Saúde da Família, PET Saúde Mental, Horto Comunitário; Telessaúde; Atividade Integradora; Gerência Distrital; Equipe de Desenvolvimento de Servidores da Saúde; Conselho Municipal de Saúde, Representação discente. A representação dos trabalhadores está sendo providenciada.
@@ -24,6 +24,12 @@
                     No primeiro semestre de 2013, os professores participantes da Coordenadoria da Saúde realizaram uma série de debates e discussões que culminou na inclusão do Distrito Centro como cenário de prática para os estudantes dos cursos da área da saúde da UFRGS. Ficou acordado entre a Gerência do Distrito GCC e a UFRGS, que o Distrito Centro fará parte deste Conselho Gestor.
                 </p>
             </div>     
+        </div>
+        <div class="col-12 col-lg-4">
+            <figure class="figure">
+                <img  class="figure-img img-fluid rounded" src="<?php bloginfo("template_directory"); ?>/img/comite-gestor.jpeg" alt="Equipe  Comitê Gestor">
+                <figcaption class="figure-caption">Equipe Comitê Gestor</figcaption>
+            </figure>
         </div>
     </div>
     <div class="row p-3 p-md-5">
@@ -60,41 +66,6 @@
             <img src="<?php bloginfo("template_directory"); ?>/assets/calendar.svg" alt="Ícone de uma página web">
         </div>
     </div>
-    <!-- <div class="row p-3 p-md-5">
-        <div class="col-12">
-            <h2 class="greenTitle text-center mb-4">Projetos da UFRGS em Execução</h2>
-            <div class="box-sombra p-3 p-md-5">
-                <p class="text-justify">
-                    Aqui você encontra os Projetos da UFRGS em Execução nas Gerências Distritais.
-                </p>
-                <h3 class="text-uppercase px-2 p-md-0 font-weight-bold">Distrito GCC</h3>
-                <p>Projetos da UFRGS participantes no Comitê Gestor e com atuação no Distrito Glória/Cruzeiro/Cristal:</p>
-                <ul>
-                    <li class="pb-3">PET Saúde</li>
-                    <li class="pb-3">PET Redes</li>
-                    <li class="pb-3">PET Vigilância</li>
-                    <li class="pb-3">Horto Ecológico</li>
-                    <li class="pb-3">Tele-Saúde</li>
-                    <li class="pb-3">PET Saúde Mental (encerrado)</li>
-                    <li class="pb-3">PET Conexões (encerrado)</li>
-                    <li class="pb-3">Pediatria na Atenção Básica</li>
-                    <li class="pb-3">Disciplina Integradora</li>
-                    <li class="pb-3">PET Saúde na Família (encerrado)</li>
-                    <li class="pb-3">Pró-Saúde I (encerrado)</li>
-                    <li class="pb-3">Pró-Saúde II</li>
-                    <li class="pb-3">Pró-Saúde III</li>
-                </ul>
-                <h3 class="text-uppercase px-2 p-md-0 font-weight-bold">Distrito Centro</h3>
-                <p>Projetos da UFRGS participantes no Comitê Gestor e com atuação no Distrito Centro:</p>
-                <ul>
-                    <li class="pb-3">PET Redes de Atenção à Saúde</li>
-                    <li class="pb-3">Redes de Atenção Psicossocial - cuidados em saúde mental, álcool, crack e outras drogas do Jovem e do Adulto</li>
-                    <li class="pb-3">Redes de Atenção Psicossocial - linha de cuidado em saúde mental da Criança e do Adolescente</li>
-                    <li class="pb-3">Cegonha Amamenta</li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
     <div class="row p-4 p-md-5">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Familiarização</h2>
