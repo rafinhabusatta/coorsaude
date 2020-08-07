@@ -60,41 +60,6 @@
             <img src="<?php bloginfo("template_directory"); ?>/assets/calendar.svg" alt="Ícone de uma página web">
         </div>
     </div>
-    <!-- <div class="row p-3 p-md-5">
-        <div class="col-12">
-            <h2 class="greenTitle text-center mb-4">Projetos da UFRGS em Execução</h2>
-            <div class="box-sombra p-3 p-md-5">
-                <p class="text-justify">
-                    Aqui você encontra os Projetos da UFRGS em Execução nas Gerências Distritais.
-                </p>
-                <h3 class="text-uppercase px-2 p-md-0 font-weight-bold">Distrito GCC</h3>
-                <p>Projetos da UFRGS participantes no Comitê Gestor e com atuação no Distrito Glória/Cruzeiro/Cristal:</p>
-                <ul>
-                    <li class="pb-3">PET Saúde</li>
-                    <li class="pb-3">PET Redes</li>
-                    <li class="pb-3">PET Vigilância</li>
-                    <li class="pb-3">Horto Ecológico</li>
-                    <li class="pb-3">Tele-Saúde</li>
-                    <li class="pb-3">PET Saúde Mental (encerrado)</li>
-                    <li class="pb-3">PET Conexões (encerrado)</li>
-                    <li class="pb-3">Pediatria na Atenção Básica</li>
-                    <li class="pb-3">Disciplina Integradora</li>
-                    <li class="pb-3">PET Saúde na Família (encerrado)</li>
-                    <li class="pb-3">Pró-Saúde I (encerrado)</li>
-                    <li class="pb-3">Pró-Saúde II</li>
-                    <li class="pb-3">Pró-Saúde III</li>
-                </ul>
-                <h3 class="text-uppercase px-2 p-md-0 font-weight-bold">Distrito Centro</h3>
-                <p>Projetos da UFRGS participantes no Comitê Gestor e com atuação no Distrito Centro:</p>
-                <ul>
-                    <li class="pb-3">PET Redes de Atenção à Saúde</li>
-                    <li class="pb-3">Redes de Atenção Psicossocial - cuidados em saúde mental, álcool, crack e outras drogas do Jovem e do Adulto</li>
-                    <li class="pb-3">Redes de Atenção Psicossocial - linha de cuidado em saúde mental da Criança e do Adolescente</li>
-                    <li class="pb-3">Cegonha Amamenta</li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
     <div class="row p-4 p-md-5">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Familiarização</h2>
