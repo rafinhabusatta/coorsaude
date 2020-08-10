@@ -15,6 +15,7 @@
 		<!-- Estilo Personalizado -->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/estilo.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/contato.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/publicacao.css">
 
 		<?php wp_head(); ?>
 	</head>
