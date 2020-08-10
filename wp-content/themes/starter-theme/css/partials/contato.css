@@ -1,3 +1,11 @@
+/* BACKGROUND */
+.pagina-contato{
+    /* background: url(../../assets/Mascote.svg);
+    background-position: 68% 4%;
+    background-repeat: no-repeat; */
+    
+    background: url(../../assets/Mascote.svg) 68% 4% no-repeat;
+}
 section{
     margin: 0;
     padding: 0;
@@ -6,38 +14,38 @@ section{
     height: 100vh;
     background-color: #fff;
     z-index: 1;
-    top: -990px;
+    top: -1418px;
 }
+
+/* .contato-body-color{
+    background-color: #58cca4;
+} */
 
 #curva{
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
 }
 
-#header_contato{
+#header-contato{
     position: relative;
     z-index: 2;
 }
 
-/* .content-contato{
-    width: 100%;
-    height: 100vh;
-    background: #58cca4;
-}  */
+
 /* CABEÇALHO */
+
 #header-contato h1{
     font-size: 24px;
-    text-align: center;
     margin: 0;
 }
 
 #header-contato h2{
     font-size: 18px;
-    text-align: center;
     margin: 16px 0 32px 0;
 }
 /* FORMULÁRIO */
+
 .nf-form-fields-required {
     display: none;
   }
@@ -64,4 +72,40 @@ section{
 
 #nf-field-8.btn-contato:hover{
     background-color: #51BD98;
+}
+
+/* MAPA */
+
+#map-adress{
+    max-width: 156px;
+    font-size: 12px;
+}
+
+.form-map{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 992px){
+    .formulario{
+        width: 465px;
+    }
+
+    #header-contato h1{
+        font-size: 47px;
+        text-align: left;
+    }
+
+    #header-contato h2{
+        font-size: 28px;
+        text-align: left;
+        max-width: 466px;
+    }
+
+    .form-map{
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 840px;
+        align-items: flex-end;
+    }
 }

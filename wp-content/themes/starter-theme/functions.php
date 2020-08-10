@@ -159,3 +159,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+add_filter('body_class', 'body_contato');
+function body_contato($classes){
+	if(is_page_template('contato.php')){
+		$classes[] = 'contato-body-color';
+	}
+	return $classes;
+}
