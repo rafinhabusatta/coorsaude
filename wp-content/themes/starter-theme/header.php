@@ -55,7 +55,7 @@
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcao">Contato</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
-								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcaos">Publicações</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcao">Publicações</a>
 							</div>
 						</li>
 					</ul>
