@@ -130,10 +130,28 @@
     } */
 
     .pagina-contato{
-        padding: 0 100px;
+        padding: 0 60px;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 495px auto;
         grid-template-rows: auto auto;
+        column-gap: 24px;
+        max-width: 1500px;
+    }
+
+    #header-contato{
+        grid-column: 1/ span 2;
+    }
+
+    .where-are-we{
+        align-content: flex-end;
+    }
+}
+
+/* EXTRA LARGE DEVICES */
+
+@media(min-width: 1200px){
+    .pagina-contato{
+        padding: 0 100px;
         column-gap: 48px;
     }
 }
