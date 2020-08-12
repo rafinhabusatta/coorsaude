@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="187.517" height="232.328" viewBox="0 0 187.517 232.328">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0.5);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: rgba(255,255,255,0.5);
+        stroke-linecap: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Background" transform="translate(-14.98 -32.549)">
+    <g id="Mascote" transform="matrix(0.966, 0.259, -0.259, 0.966, 66.147, 24.316)">
+      <ellipse id="Elipse_4176" data-name="Elipse 4176" class="cls-1" cx="17.949" cy="22.091" rx="17.949" ry="22.091" transform="translate(85.268 0) rotate(14)"/>
+      <path id="Caminho_26" data-name="Caminho 26" class="cls-2" d="M-20863.084-16831.117s-34.555,17.182-55.32,47.209a79.58,79.58,0,0,0-12.4,27.826,104.187,104.187,0,0,0,20.039,81.707" transform="translate(21009.756 16877.066)"/>
+      <path id="Caminho_27" data-name="Caminho 27" class="cls-2" d="M-20932.441-16674.375s57.547-28.609,67.723-75.037a104.226,104.226,0,0,0-20.031-81.705" transform="translate(20932.441 16846.693)"/>
+    </g>
+  </g>
+</svg>
