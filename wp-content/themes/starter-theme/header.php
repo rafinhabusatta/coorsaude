@@ -24,7 +24,7 @@
 		<header id="masthead" class="sticky-top">
 			<nav class="navbar navbar-expand-lg navbar-light fundo-coor">
 				<a href="<?php echo site_url(); ?>" class="navbar-brand">
-					<img src="<?php bloginfo("template_directory"); ?>/img/logo.png" alt="CoorSaúde">
+					<img src="<?php bloginfo("template_directory"); ?>/img/logo.png" alt="Coordenadoria da Saúde da Universidade Federal do Rio Grande do Sul">
 				</a>
 				<button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#menu" aria-label="Menu de navegação">
 					<span class="navbar-toggler-icon"></span>

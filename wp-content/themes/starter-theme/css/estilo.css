@@ -21,6 +21,10 @@ body{
         background-color: #ffffff;
         border-radius: 24px;
     }
+/* FONT-SIZES */
+.fs-22{
+    font-size: 22px;
+}
 /* TÍTULOS */
     .greenTitle{
         color: #4DBA80;
@@ -149,10 +153,37 @@ body{
     background: url(../assets/BackFooter.svg) no-repeat center top;
     background-size: cover;
 }
+.footer a{
+    color: #424242;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .logo-footer img{
     width: 150px;
 }
-
+.footer-title{
+    font-size: 18px;
+}
+.footer-1 img{
+    max-width: 38px;
+}
+.footer-5 .footer-logo-width{
+    margin: 0 -30px;
+    background-color: #7CD9A7;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.footer .container-fluid{
+    padding: 0 30px;
+    text-align: center;
+}
+.footer-5 img{
+    max-width: 100px;
+}
 /* MEDIA QUERIES */
 
     /* EXTRA SMALL DEVICES */
@@ -212,6 +243,13 @@ body{
         .carousel img{
             height: 400px;
         }
+        /* Rodapé */
+        .footer-title{
+            font-size: 22px;
+        }
+        .footer-5 img{
+            max-width: 150px;
+        }
     }
 
     /* LARGE DEVICES */
@@ -244,6 +282,41 @@ body{
         }
         #carousel-pis1-2012-1 img, #carousel-pis1-2012-2 img, #carousel-pis1-2013-1 img, #carousel-pis1-2013-2 img{
             height: 300px;
+        }
+        /* RODAPÉ */
+        .grid-footer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            max-width: 1000px;
+            justify-content: space-between;
+        }
+        .footer-1,
+        .footer-5,
+        .footer-6{
+            grid-column: 1/ span 3;
+        }
+        .footer-2-list{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .footer-2-list .footer-title{
+            grid-column: 1/ span 2;
+        }
+        .footer-logo-width{
+            max-width: 1000px;
+        }
+        .footer-5 .footer-logo-width{
+            margin: 0 -48px;
+            padding: 0 33px;
+            /* display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: auto auto;
+            align-items: center; */
+        }
+        .footer-5{
+            background-color: #7CD9A7;
+            display: flex;
+            justify-content: center;
         }
     }
 
