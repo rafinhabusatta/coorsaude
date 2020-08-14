@@ -39,12 +39,14 @@ function atualizaLarguraTela(){
 }
 
 function ScreenResBack() {
-    let mx = -((screen.width - 1000) / 2) -48
+    let mx = -((screen.width - 1000) / 2) - 48 + 8
     let footer1 = document.querySelector('.footer-5')
     let footer2 = (document.querySelector('.footer-5-2'))
 
-    footer1.style.margin = `0 ${mx}` + 'px'
-    footer2.style.margin = `0 ${mx}` + 'px'
+    if(screen.width >= 992){
+        footer1.style.margin = `0 ${mx}` + 'px'
+        footer2.style.margin = `0 ${mx}` + 'px'
+    }
 }
 
 atualizaLarguraTela()
