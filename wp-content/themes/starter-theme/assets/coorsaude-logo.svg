@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137.629" height="56.129" viewBox="0 0 137.629 56.129">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 21px;
+      }
+
+      .cls-3 {
+        font-family: SegoeUI-Semibold, Segoe UI;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="coorsaude-logo" transform="translate(-675 -791.689)">
+    <g id="Background" transform="matrix(0.966, -0.259, 0.259, 0.966, 759.346, 795.308)">
+      <g id="Mascote" transform="matrix(0.966, 0.259, -0.259, 0.966, 13.982, 0)">
+        <ellipse id="Elipse_4176" data-name="Elipse 4176" class="cls-1" cx="4.895" cy="6.308" rx="4.895" ry="6.308" transform="translate(22.84 0) rotate(14)"/>
+        <path id="Caminho_26" data-name="Caminho 26" class="cls-2" d="M17.977,0S9.021,4.454,3.638,12.237A20.625,20.625,0,0,0,.424,19.45,27.006,27.006,0,0,0,5.619,40.629" transform="translate(19.789 13.393)"/>
+        <path id="Caminho_27" data-name="Caminho 27" class="cls-2" d="M0,40.883s15.01-7.462,17.664-19.572A27.185,27.185,0,0,0,12.439,0" transform="translate(0 5.52)"/>
+      </g>
+    </g>
+    <g id="CoorSaúde_Brand" data-name="CoorSaúde Brand" transform="translate(675 798.291)">
+      <text id="Coor" class="cls-3" transform="translate(0 22.709)"><tspan x="0" y="0">Coor</tspan></text>
+      <text id="Saúde" class="cls-4" transform="translate(48 22.709)"><tspan x="0" y="0">Saúde</tspan></text>
+    </g>
+  </g>
+</svg>

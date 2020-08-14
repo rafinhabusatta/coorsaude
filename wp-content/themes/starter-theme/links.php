@@ -8,18 +8,22 @@
         <div class="col-12">
             <div class="p-3 p-md-5">
                 <ul>
-                    <li><a href="http://prosaude-ufrgs.blogspot.com/" target="_blank">ABRASCO Blog Pró-Saúde UFRGS</a></li>
-                    <li><a href="http://blogdapromocao-saudecoletiva.blogspot.com/" target="_blank">Blog Promoção da Saúde</a></li>
-                    <li><a href="#" target="_blank">CGAPSES</a></li>
+                    //<li><a href="http://prosaude-ufrgs.blogspot.com/" target="_blank">ABRASCO Blog Pró-Saúde UFRGS</a></li>
+                    //<li><a href="http://blogdapromocao-saudecoletiva.blogspot.com/" target="_blank">Blog Promoção da Saúde</a></li>
+                    //<li><a href="#" target="_blank">CGAPSES</a></li>
+
                     <li><a href="http://www2.portoalegre.rs.gov.br/cms/" target="_blank">Conselho Municipal de Saúde</a></li>
                     <li><a href="https://www.mec.gov.br/" target="_blank">Ministério da Educação</a></li>
                     <li><a href="https://www.saude.gov.br/portalsaude/" target="_blank">Ministério da Saúde</a></li>
-                    <li><a href="http://www.otics.org/otics/" target="_blank">OTICS</a></li>
-                    <li><a href="https://www.saude.gov.br/" target="_blank">PET Saúde</a></li>
-                    <li><a href="http://www.prosaude.org/" target="_blank">Pró-Saúde</a></li>
+
+                    //<li><a href="http://www.otics.org/otics/" target="_blank">OTICS</a></li>
+                    //<li><a href="https://www.saude.gov.br/" target="_blank">PET Saúde</a></li>
+                    //<li><a href="http://www.prosaude.org/" target="_blank">Pró-Saúde</a></li>
+
+
                     <li><a href="http://www.redeunida.org.br/pt-br/" target="_blank">Rede Unida</a></li>
                     <li><a href="http://www2.portoalegre.rs.gov.br/sms/" target="_blank">Secretaria Municipal de Saúde</a></li>
-                    <li><a href="https://www.ufrgs.br/telessauders/" target="_blank">TelessaúdeRS</a></li>
+                    //<li><a href="https://www.ufrgs.br/telessauders/" target="_blank">TelessaúdeRS</a></li>
                 </ul>
                 <h3>Cursos da Área da Saúde na UFRGS</h3>
                 <p>

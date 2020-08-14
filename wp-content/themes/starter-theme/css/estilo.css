@@ -163,6 +163,14 @@ body{
 .footer-title{
     font-size: 18px;
 }
+.footer-5,
+.footer-5-2{
+    background-color: #7CD9A7;
+    margin: 0 -30px;
+}
+.grid-footer{
+    padding: 0 30px;
+}
 /* MEDIA QUERIES */
 
     /* EXTRA SMALL DEVICES */
@@ -266,7 +274,9 @@ body{
             max-width: 1000px;
         }
         .footer-1,
-        .footer-5{
+        .footer-5,
+        .footer-5-2,
+        .footer-6{
             grid-column: 1/ span 3;
         }
         .footer-2-list{

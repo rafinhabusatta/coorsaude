@@ -1,5 +1,5 @@
 <footer class="footer mt-5">
-	<div class="container-fluid grid-footer px-5">
+	<div class="container-fluid grid-footer px-lg-5">
 		<div class="row py-5 footer-1">
 			<div class="col-12 text-center">
 				Redes Sociais
@@ -8,7 +8,7 @@
 		<div class="row pt-3 footer-2">
 			<div class="col-12">	
 				<div class="footer-2-list">
-					<h2 class="footer-title">Cursos Presentes no Comitê Gestor</h2>
+					<h2 class="footer-title">Cursos Presentes na CoorSaúde</h2>
 					<ul class="list-1">
 						<li><a href="http://www.ufrgs.br/biomedicina/" target="_blank">Biomedicina</a></li>
 						<li><a href="https://www.ufrgs.br/biociencias/" target="_blank">Ciêcias Biológicas</a></li>
@@ -32,14 +32,14 @@
 		</div>
 		<div class="row pt-3 footer-3">
 			<div class="col-12">		
-					<a href="<?php echo site_url(); ?>"><h2 class="footer-title">CoorSaúde</h2></a>
-					<ul>
-						<li><a href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a></li>
-						<li><a href="<?php echo site_url(); ?>/estagios">Estágios</a></li>
-						<li><a href="<?php echo site_url(); ?>/cenarios-de-pratica">Cenários de Prática</a></li>
-						<li><a href="<?php echo site_url(); ?>/comite-gestor">Comitê Gestor</a></li>
-						<li><a href="<?php echo site_url(); ?>/disciplinas-integradoras">Disciplinas Integradoras</a></li>
-					</ul>		
+				<a href="<?php echo site_url(); ?>"><h2 class="footer-title">CoorSaúde</h2></a>
+				<ul>
+					<li><a href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a></li>
+					<li><a href="<?php echo site_url(); ?>/estagios">Estágios</a></li>
+					<li><a href="<?php echo site_url(); ?>/cenarios-de-pratica">Cenários de Prática</a></li>
+					<li><a href="<?php echo site_url(); ?>/comite-gestor">Comitê Gestor</a></li>
+					<li><a href="<?php echo site_url(); ?>/disciplinas-integradoras">Disciplinas Integradoras</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="row pt-3 footer-4">
@@ -51,7 +51,38 @@
 				</ul>	
 			</div>
 		</div>
-		<div class="row pt-5 pb-3 footer-5">
+		<div class="row footer-5">
+			<div class="col-4 col-lg-2">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/coorsaude-logo.svg" alt="Coordenadoria da Saúde da Universidade Federal do Rio Grande do Sul"></a>
+			</div>
+			<div class="col-4 col-lg-2">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/ufrgs-logo.png" alt="Universidade Federal do Rio Grande do Sul"></a>
+			</div>
+			<div class="col-4 col-lg-2">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/cms-logo.svg" alt="Conselho Municipal de Saúde"></a>
+			</div>
+			<div class="col-4 col-lg-2">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/mec-logo.svg" alt="Ministério da Educação"></a>
+			</div>
+			<div class="col-4 col-lg-2">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/ministerio-da-saude-logo.svg" alt="Ministério da Saúde"></a>
+			</div>
+			<div class="col-4 col-lg-2">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/rede-unida-logo.png" alt="Rede Unida"></a>
+			</div>
+		</div>
+		<div class="row footer-5-2">
+			<div class="col-4">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/prograd-logo.png" alt="Pró Reitoria de Graduação da Universidade Federal do Rio Grande do Sul"></a>
+			</div>
+			<div class="col-4">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/prae-logo.png" alt="Pró Reitoria de Assuntos Estudantis da Universidade Federal do Rio Grande do Sul"></a>
+			</div>
+			<div class="col-4">
+				<a href=""><img src="<?php blogifo("templeate_directory"); ?>/assets/sms-logo.svg" alt="Secretaria Municipal de Saúde"></a>
+			</div>
+		</div>
+		<div class="row pt-5 pb-3 footer-6">
 			<div class="col-12 text-center font-weight-bold">
 				CoorSaúde - UFRGS
 			</div>
