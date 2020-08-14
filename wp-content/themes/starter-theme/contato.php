@@ -10,7 +10,7 @@
         <div class="row mx-0">
             <div class="col-12 form-map">
                 <div class="box-contato formulario">
-                    <?php echo do_shortcode('[ninja_form id=2]'); ?>
+                    <?php echo do_shortcode('[ninja_form id=1]'); ?>
                 </div>
             </div>
             <!-- <section>
