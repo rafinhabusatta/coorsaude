@@ -17,6 +17,8 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/contato.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/publicacao.css">
 
+		<title><?php wp_title();?></title>
+
 		<?php wp_head(); ?>
 	</head>
 
