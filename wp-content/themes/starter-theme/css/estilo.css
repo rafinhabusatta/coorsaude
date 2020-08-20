@@ -7,6 +7,10 @@ body{
         color: #4DBA80;
         text-decoration: none;
     }
+/* LISTAS */
+/* ul{
+    margin: 0;
+} */
 /* BOTÕES */
     .btn-leia{
         border-radius: 8px;

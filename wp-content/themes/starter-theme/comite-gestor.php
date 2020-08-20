@@ -6,7 +6,7 @@
             <h2 class="greenTitle text-center mb-4">Comissão de Gestão e Acompanhamento Local (CGAL)</h2>
             <div class="p-md-3">
                 <p class="text-justify">
-                    Em 2008, instituída a Comissão de Gestão e Acompanhamento Local (CGAL), conhecida como Comitê Gestor, operando através de reuniões quinzenais no Distrito Glória-Cruzeiro-Cristal. Estas reuniões possibilitaram a problematização do cenário de prática, com aproximação entre os profissionais do Distrito e a UFRGS e o acompanhamento da aplicação de recursos. Esta formação inicial contava com representantes da Universidade, da Gestão em nível técnico e administrativo e do Conselho Municipal da Saúde.
+                    Em 2008 foi instituída a Comissão de Gestão e Acompanhamento Local (CGAL), conhecida como Comitê Gestor. Por meio de reuniões quinzenais no Distrito Glória-Cruzeiro-Cristal, foi possível a problematização do cenário de prática, com aproximação entre os profissionais do Distrito Docente-Assistencial e a UFRGS e o acompanhamento da aplicação de recursos. Esta formação inicial contava com representantes da Universidade, da Gestão em nível técnico e administrativo e do Conselho Municipal da Saúde.
                 </p>
             </div>
         </div>
@@ -15,10 +15,10 @@
         <div class="col-12 col-lg-8">
             <div class="p-md-3">
                 <p class="text-justify">
-                    Com a passagem da gestão do Pró-Saúde II para a CoorSaúde em maio de 2011, acordou-se uma nova configuração para o Comitê Gestor, com a inclusão de professores representantes dos projetos em saúde da UFRGS em execução no Distrito. A partir de 20 de junho de 2011, o Comitê Gestor passa ter a seguinte composição: CoorSaúde, Pró-Saúde I da Odontologia; PET Saúde da Família, PET Saúde Mental, Horto Comunitário; Telessaúde; Atividade Integradora; Gerência Distrital; Equipe de Desenvolvimento de Servidores da Saúde; Conselho Municipal de Saúde, Representação discente. A representação dos trabalhadores está sendo providenciada.
+                    Com a passagem da gestão do Pró-Saúde II para a CoorSaúde em maio de 2011, acordou-se uma nova configuração para o Comitê Gestor, com a inclusão de professores representantes dos projetos em saúde da UFRGS em execução no Distrito Glória-Cruzeiro-Cristal. Em 20 de junho de 2011, o Comitê Gestor passa ter a seguinte composição: CoorSaúde, Pró-Saúde I da Odontologia; PET-Saúde da Família, PET-Saúde Mental, Horto Comunitário; Telessaúde; Atividade de Ensino Integradora; Gerência Distrital; Equipe de Desenvolvimento de Servidores da Saúde; Conselho Municipal de Saúde, Representação discente e representação dos trabalhadores.
                 </p>
                 <p class="text-justify">
-                    O Comitê Gestor é responsável pela gestão política e administrativa do projeto Pró-Saúde II e pela organização das demandas originárias da Universidade e do Distrito, buscando a integração entre ensino e serviço. O controle social, pela representação do Conselho Municipal de Saúde, acompanha e monitora as ações propostas.
+                    O Comitê Gestor foi responsável pela gestão política e administrativa do projeto Pró-Saúde II e pela organização das demandas originárias da Universidade e do Distrito, buscando a integração entre ensino e serviço. O controle social, pela representação do Conselho Municipal de Saúde, acompanha e monitora as ações propostas.
                 </p>
                 <p class="text-justify">
                     No primeiro semestre de 2013, os professores participantes da Coordenadoria da Saúde realizaram uma série de debates e discussões que culminou na inclusão do Distrito Centro como cenário de prática para os estudantes dos cursos da área da saúde da UFRGS. Ficou acordado entre a Gerência do Distrito GCC e a UFRGS, que o Distrito Centro fará parte deste Conselho Gestor.
@@ -43,13 +43,13 @@
                     Participam do Comitê Gestor
                 </h3>
                 <ul>
-                    <li class="pb-3">Representantes da Gerência do Distrito Glória/Cruzeiro/Cristal - Porto Alegre;</li>
-                    <li class="pb-3">Representantes da Gerência do Distrito Centro - Porto Alegre;</li>
-                    <li class="pb-3">Representantes da CoorSaúde, em nome da Universidade Federal do Rio Grande do Sul;</li>
-                    <li class="pb-3">Representante da Disciplina de Práticas Integradas em Saúde I da Universidade Federal do Rio Grande do Sul;</li>
-                    <li class="pb-3">Representante da Comissão de Residência Multiprofissional (COREMU) da Universidade Federal do Rio Grande do Sul;</li>
-                    <li class="pb-3">Representantes dos Conselhos Distritais e do Conselho  Municipal de Saúde (CMS) de Porto Alegre;</li>
-                    <li class="pb-3">Representantes da Comissão Permanente de Ensino e Serviço (CPES) da Secretaria Municipal de Saúde de Porto Alegre.</li>
+                    <li class="pb-3">Representantes da Gerência do Distrito Glória-Cruzeiro-Cristal, Porto Alegre;</li>
+                    <li class="pb-3">Representantes da Gerência do Distrito Centro, Porto Alegre;</li>
+                    <li class="pb-3">Representantes da CoorSaúde, Universidade Federal do Rio Grande do Sul;</li>
+                    <li class="pb-3">Representante da Disciplina de Práticas Integradas em Saúde I, Universidade Federal do Rio Grande do Sul;</li>
+                    <li class="pb-3">Representantes dos Conselhos Distritais e do Conselho Municipal de Saúde (CMS) de Porto Alegre;</li>
+                    <li class="pb-3">Representantes da Comissão Permanente de Ensino e Serviço (CPES) da Secretaria Municipal de Saúde de Porto Alegre;</li>
+                    <li class="pb-3">Também é convidada, mensalmente, a representação da Comissão de Residência Multiprofissional (COREMU) da Universidade Federal do Rio Grande do Sul.</li>
                 </ul>
             </div>
         </div>
