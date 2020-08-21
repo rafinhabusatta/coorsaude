@@ -19,6 +19,7 @@
 						<li><a href="https://www.ufrgs.br/farmacia/" target="_blank">Farmácia</a></li>
 						<li><a href="https://www.ufrgs.br/esefid/site/graduacao/fisioterapia" target="_blank">Fisioterapia</a></li>
 						<li><a href="http://www.ufrgs.br/odontologia/ensino/fono" target="_blank">Fonoaudiologia</a></li>
+						<li><a href="https://www.ufrgs.br/ifch/index.php/br/politicas-publicas-2" target="_blank">Curso convidado: Políticas Públicas</a></li>
 					</ul>
 					<ul class="list-2">
 						<li><a href="https://www.ufrgs.br/famed/" target="_blank">Medicina</a></li>
@@ -32,7 +33,7 @@
 				</div>	
 			</div>
 		</div>
-		<div class="row pt-3 footer-3">
+		<div class="row pt-3 pt-lg-0 footer-3">
 			<div class="col-12">		
 				<a href="<?php echo site_url(); ?>"><h2 class="footer-title">CoorSaúde</h2></a>
 				<ul>
@@ -44,7 +45,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row pt-3 footer-4">
+		<div class="row pt-3 pt-lg-0 footer-4">
 			<div class="col-12">			
 				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Contato</h2></a>
 				<ul>
