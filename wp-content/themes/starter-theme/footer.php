@@ -54,6 +54,8 @@
 				</ul>	
 			</div>
 		</div>
+	</div>
+	<div class="container-fluid grid-footer px-lg-5">
 		<div class="footer-5 mt-5">
 			<div class="row py-5 footer-logo-width">
 				<div class="col-4 col-lg">
@@ -85,9 +87,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="footer-5-2">
-			<div class="row footer-logo-width pb-5"></div>
-		</div> -->
 		<div class="row py-3 footer-6">
 			<div class="col-12 text-center font-weight-bold">
 				CoorSaúde - UFRGS

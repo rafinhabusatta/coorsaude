@@ -66,5 +66,5 @@ function ScreenResBack() {
     }
 }
 
-atualizaLarguraTela()
-ScreenResBack()
+//atualizaLarguraTela()
+//ScreenResBack()
