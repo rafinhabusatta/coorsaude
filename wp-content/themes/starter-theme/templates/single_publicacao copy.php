@@ -7,15 +7,8 @@
             <article <?php post_class() ;?> id="post-<?php the_ID(); ?>">
                 <header class="row header-noticia text-center align-items-center">
                     <div class="col-12 position-relative">
-                        <h1><?php the_title();?></h1>
-                        <p>
-                            <?php 
-                                $data = get_field('data');
-                                if(!empty($data)){
-                                    echo $data; 
-                                } 
-                            ?>
-                        </p>
+                        <h1>Título Notícia</h1>
+                        <p>Data: 18/8/2020</p>
                     </div>
                 </header>
                 <section class="row section-noticia mx-0 mt-4 text-justify">
