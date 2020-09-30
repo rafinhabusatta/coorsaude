@@ -34,12 +34,6 @@
 				<div class="collapse navbar-collapse" id="menu">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">Coronavírus</a>
-						</li>
-						<li class="nav-item">
-							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">Estágios</a>
-						</li>
-						<li class="nav-item">
 							<a href="<?php echo site_url(); ?>/cenarios-de-pratica" class="nav-link">Cenários de Prática</a>
 						</li>
 						<li class="nav-item">
@@ -47,6 +41,12 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo site_url(); ?>/disciplinas-integradoras">Disciplinas Integradoras</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">Estágios</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">PET-Saúde</a>
 						</li>
 						<!-- <li class="nav-item">
 							<a class="nav-link" href="/publicacoes">Publicações</a>
@@ -58,6 +58,7 @@
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/contato">Contato</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcao">Publicações</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcao">Coronavírus</a>
 							</div>
 						</li>
 					</ul>
