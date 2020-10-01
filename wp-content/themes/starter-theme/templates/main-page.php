@@ -50,10 +50,10 @@
             </p>
         </div>
         <div class="col-12 col-md-6 text-right pr-md-0">
-            <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da frente da Universidade Federal do Rio Grande do Sul">
+            <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da fachada da Universidade Federal do Rio Grande do Sul">
         </div>
     </div>
-    <div class="row justify-content-around text-center acoes-desenvolvidas px-md-5">
+    <div class="row justify-content-between text-center acoes-desenvolvidas">
         <div class="col-12 mb-3">
             <h2 class="greenTitle mt-4">Ações Desenvolvidas</h2>
         </div>
@@ -67,13 +67,13 @@
             <p class="d-table-cell align-middle">PET-Saúde na UFRGS</p>
         </div>
     </div>
-    <div class="row px-3 pt-5 pb-5 p-md-5">
+    <div class="row px-3 pt-5 pb-5 p-md-5 historico">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Histórico</h2>
         </div>
         <div class="col-12 px-md-0">
             <p class="text-justify mb-0">
-                A Coordenadoria da Saúde (CoorSaúde) da UFRGS é resultado do movimento de implantação das Diretrizes Curriculares Nacionais para a área da saúde (Edital SESu/MEC nº 4, de 10/12/1997 e Resoluções CNE/CES nos 3, 4 e 5/2001; 2, 3, 4, 5 e 6/2002; 1 e 2/2003 e 7 e 8/2004) e das Diretrizes Constitucionais Nacionais para o setor da saúde (Artigos 200, 205, 208 e 214,  da Constituição Federal de 1988), conforme desdobramentos da Lei de Diretrizes e Bases da Educação Nacional (Artigos 1º, 2º, 3º, 43 e 53) e da Lei Orgânica da Saúde (Artigos 13, 14, 15 e 27), além do consequente processo de mudança nos cursos da áreas<span id="dots-historic">...</span>
+                A Coordenadoria da Saúde (CoorSaúde) da UFRGS é resultado do movimento de implantação das Diretrizes Curriculares Nacionais para a área da saúde (Edital SESu/MEC nº 4, de 10/12/1997 e Resoluções CNE/CES nos 3, 4 e 5/2001; 2, 3, 4, 5 e 6/2002; 1 e 2/2003 e 7 e 8/2004) e das Diretrizes Constitucionais Nacionais para o setor da saúde (Artigos 200, 205, 208 e 214,  da Constituição Federal de 1988), conforme desdobramentos da Lei de Diretrizes e Bases da Educação Nacional (Artigos 1º, 2º, 3º, 43 e 53) e da Lei Orgânica da Saúde (Artigos 13, 14, 15 e 27), além do consequente processo de mudança nos cursos da área.<span id="dots-historic">...</span>
 
                 <span id="more-historic" class="d-none">
                     Dentre as principais estratégias de atenção aos determinantes legais e orientações normativas está a necessidade de ações conjuntas e integradas entre os cursos. A partir de 2004 e em resposta à convocação nacional despertada pelos Ministérios da Educação e da Saúde designado por “AprenderSUS – o SUS e os cursos de graduação da área da saúde”, os cursos da área e afins passaram a discutir, por meio de grupos de estudos ou projetos correspondentes aos editais nacionais apresentados pela Política Nacional de Formação e Desenvolvimento para o Sistema Único de Saúde: Caminhos para a Educação Permanente em Saúde (Resolução CNS nº 335, 27/11/2003) a construção da integralidade da atenção à saúde, o trabalho em equipes multiprofissionais e interdisciplinares, a apropriação do sistema de saúde vigente em nosso país e a educação permanente em docência e práticas pedagógicas na saúde.
@@ -88,7 +88,7 @@
             </p>
         </div>
     </div>
-    <div class="row seminario text-white px-3 py-4 p-md-5">
+    <div class="row seminario text-white">
         <div class="col-12 px-md-0">
             <h2 class="text-uppercase font-weight-bold m-0 p-md-0">Seminário de 10 anos CoorSaúde</h2>
             <h3 class="text-uppercase p-md-0 mb-0">08 e 09 de novembro de 2018</h3>
@@ -109,15 +109,15 @@
             </p>
         </div>
     </div>
-    <div class="row distrito text-white p-4 p-md-5">
-        <div class="col-12 col-md-8 m-auto px-md-0">
+    <div class="row distrito calendario text-white">
+        <div class="col-12 col-md-8 px-md-0">
             <h2 class="text-uppercase font-weight-bold m-0 p-md-0">Calendário de Reuniões</h2>
             <p class="mt-4 mb-0 p-md-0 text-justify">
                 As reuniões ordinárias da Coorsaúde acontecem todas as primeiras sextas-feiras do mês, das 10 às 12 horas. Para maiores informações, <a href="mailto:coordsaude@ufrgs.br?Subject=Calendário%20de%20Reuniões" class="font-weight-bold">envie um e-mail</a> para a CoorSaúde.
             </p>
         </div>
-        <div class="col-4 d-none d-md-block my-3">
-            <img src="<?php bloginfo("template_directory"); ?>/assets/calendar.svg" alt="Ícone de uma página web">
+        <div class="col-4 d-none d-md-block pr-0">
+            <img src="<?php bloginfo("template_directory"); ?>/assets/calendar.svg" alt="Ícone de um calendário">
         </div>
     </div>
 </div>

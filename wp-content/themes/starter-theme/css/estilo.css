@@ -98,6 +98,7 @@ body{
     }
     .seminario{
         background: #4FB793;
+        padding: 24px 16px;
     }
     .seminario h2{
         font-size: 22px;
@@ -105,7 +106,14 @@ body{
     .seminario h3{
         font-size: 13px;
     }
+    .calendario{
+        padding: 24px;
+    }
     /* REGIMENTO */
+        .regimento{
+            background: url(../assets/RegimentoMobile.svg);
+            background-size: 305px 292px;
+        }
         .regimento p{
             font-size: 22px;
         }
@@ -247,17 +255,6 @@ body{
             font-size: 85px;
         }
     }
-    /* SMALL AND EXTRA SMALL DEVICES - EXCLUSIVE */
-    @media (max-width: 767.98px){
-        /* REGIMENTO */
-            .regimento{
-                background: url(../assets/RegimentoMobile.svg);
-            }
-    }
-    .regimento{
-        background: url(../assets/RegimentoMobile.svg) 90% -90% no-repeat;
-        background-size: 305px 292px;
-    }
 
     /* MEDIUM DEVICES - EXCLUSIVE */
     @media(min-width: 768px) and (max-width: 991.98px){
@@ -276,6 +273,11 @@ body{
             font-size: 126px;
             padding-top: 70px;
         }
+        /* HOME */
+        .regimento{
+            background: url(../assets/RegimentoMobile.svg) 90% -90% no-repeat;
+            background-size: 305px 292px;
+        }
         /* Sobre a CoorSaúde */
         .sobre p{
             width: 330px;
@@ -284,15 +286,25 @@ body{
             margin-bottom: 0;
         }
         /* Seminario e Cenários de Prática */
+        .seminario{
+            padding: 48px;
+        }
         .seminario h2, .distrito h2{
             font-size: 32px;
         }
         .seminario h3{
             font-size: 18px;
         }
+        .calendario{
+            padding: 48px;
+        }
         /* Carousel */
         .bg-coor{
             height: 400px;
+        }
+        /* Ações Desenvolvidas */
+        .acoes-desenvolvidas{
+            padding: 0 48px;
         }
         .carousel img{
             height: 400px;
@@ -315,9 +327,26 @@ body{
         a:hover{
             color: #19844b;
         }
+        /* HOME */
+        .historico{
+            margin: 0 48px;
+        }
         /* Ações Desenvolvidas */
+        .caixa-acoes{
+            font-size: 20px;
+            width: 224px;
+        }
         .caixa-acoes:hover{
             top: -15px;
+        }
+        .acoes-desenvolvidas{
+            padding: 0 111px;
+        }
+        .seminario{
+            padding: 48px 111px;
+        }
+        .calendario{
+            padding: 48px 111px;
         }
         /* Carousel */
         .bg-coor{
@@ -325,6 +354,10 @@ body{
         }
         .carousel img{
             height: 450px;
+        }
+        /* Regimento */
+        .regimento{
+            margin: 0 48px;
         }
         /* Títulos */
         .coor{
@@ -377,6 +410,9 @@ body{
     /* EXTRA LARGE DEVICES */
     @media (min-width: 1200px){
         /* Sobre a CoorSaúde */
+        .sobre{
+            margin: 48px 115px;
+        }
         .sobre img{
             height: 300px;
         }
