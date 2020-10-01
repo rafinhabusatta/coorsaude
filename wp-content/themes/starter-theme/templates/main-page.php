@@ -38,38 +38,41 @@
             </clipPath>
         </defs>    
     </svg> -->
-    <div class="row m-3 m-lg-5 sobre">
-        <div class="col-12 col-md-6 text-right">
-            <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da frente da Universidade Federal do Rio Grande do Sul">
-        </div>
-        <div class="col-12 col-md-6">
-            <h2 class="greenTitleSpecial text-center text-md-left">Sobre a CoorSaúde</h2>
-            <p class="text-justify">
-                A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Graduação(ProGrad)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
-                <!-- <span id="more" class=""></span> <button class="font-weight-bold" id="btnLeia" onclick="ReadMoreLess()">Leia mais...</button> -->
+    <div class="row px-3 pt-4 pb-5 px-md-5 m-lg-5 sobre">
+        <div class="col-12 col-md-6 px-md-0">
+            <h2 class="greenTitleSpecial text-center text-md-left mb-4">Sobre a CoorSaúde</h2>
+            <p class="text-justify mb-md-0">
+                A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Graduação(ProGrad)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do<span id="dots-sobre">...</span>
+                <span id="more-sobre" class="d-none">
+                    Sistema Único de Saúde (SUS).Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
+                </span> 
+                <button class="font-weight-bold " id="btn-sobre" onclick="ReadSobre()">Leia mais...</button>
             </p>
         </div>
+        <div class="col-12 col-md-6 text-right pr-md-0">
+            <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da frente da Universidade Federal do Rio Grande do Sul">
+        </div>
     </div>
-    <div class="row justify-content-around text-center acoes-desenvolvidas px-3 px-md-5">
+    <div class="row justify-content-around text-center acoes-desenvolvidas px-md-5">
         <div class="col-12 mb-3">
             <h2 class="greenTitle mt-4">Ações Desenvolvidas</h2>
         </div>
-        <div class="col-12 col-md-3 mb-5 p-5 box-sombra d-table caixa-acoes">
+        <div class="col-12 col-md- mb-5 box-sombra d-table caixa-acoes">
             <p class="d-table-cell align-middle">Disciplinas Integradoras PIS I e PIS II</p>
         </div>
-        <div class="col-12 col-md-3 mb-5 p-5 box-sombra d-table caixa-acoes">
+        <div class="col-12 col-md- mb-5 box-sombra d-table caixa-acoes">
             <p class="d-table-cell align-middle">Comissão de Gestão e Acompanhamento Local (CGAL)</p>
         </div>
-        <div class="col-12 col-md-3 mb-5 p-5 box-sombra d-table caixa-acoes">
+        <div class="col-12 col-md- mb-5 box-sombra d-table caixa-acoes">
             <p class="d-table-cell align-middle">PET-Saúde na UFRGS</p>
         </div>
     </div>
-    <div class="row p-3 p-md-5">
+    <div class="row px-3 pt-5 pb-5 p-md-5">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Histórico</h2>
         </div>
-        <div class="col-12">
-            <p class="text-justify p-3 p-md-5 box-sombra">
+        <div class="col-12 px-md-0">
+            <p class="text-justify mb-0">
                 A Coordenadoria da Saúde (CoorSaúde) da UFRGS é resultado do movimento de implantação das Diretrizes Curriculares Nacionais para a área da saúde (Edital SESu/MEC nº 4, de 10/12/1997 e Resoluções CNE/CES nos 3, 4 e 5/2001; 2, 3, 4, 5 e 6/2002; 1 e 2/2003 e 7 e 8/2004) e das Diretrizes Constitucionais Nacionais para o setor da saúde (Artigos 200, 205, 208 e 214,  da Constituição Federal de 1988), conforme desdobramentos da Lei de Diretrizes e Bases da Educação Nacional (Artigos 1º, 2º, 3º, 43 e 53) e da Lei Orgânica da Saúde (Artigos 13, 14, 15 e 27), além do consequente processo de mudança nos cursos da áreas<span id="dots-historic">...</span>
 
                 <span id="more-historic" class="d-none">
@@ -85,11 +88,11 @@
             </p>
         </div>
     </div>
-    <div class="row seminario text-white p-4 p-md-5">
-        <div class="col-12">
-            <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Seminário de 10 anos CoorSaúde</h2>
-            <h3 class="text-uppercase px-2 p-md-0">08 e 09 de novembro de 2018</h3>
-            <p class="my-5 px-2 p-md-0 text-justify">
+    <div class="row seminario text-white px-3 py-4 p-md-5">
+        <div class="col-12 px-md-0">
+            <h2 class="text-uppercase font-weight-bold m-0 p-md-0">Seminário de 10 anos CoorSaúde</h2>
+            <h3 class="text-uppercase p-md-0 mb-0">08 e 09 de novembro de 2018</h3>
+            <p class="mt-4 mb-3 p-md-0 text-justify">
                 Em 2018, a CoorSaúde completou dez anos de atividade. Em comemoração realizou-se o seminário Balanço e Perspectivas de Reorientação Profissional e Integração Ensino-Serviço, com o debate de diversos temas<span id="dots-seminario">...</span>
                 <span id="more-seminario" class="d-none">
                     “Balanço dos principais marcos da integração Universidade e SUS – COMO NOS ORGANIZAMOS JUNTOS?”, “Análise histórico-contextual e perspectivas da integração ensino-serviço-comunidade”, “Cenários e atores de transformação – disciplinas Práticas Integradas em Saúde I e II; PET-Saúde”, “Saúde e Movimentos Sociais - Roda de Conversa com lideranças dos movimentos sociais da saúde, Conselho Distrital de Saúde, Projeto Memórias de Barracão”, “Roda de conversa sobre Diretrizes Curriculares Nacionais (DCN) nos cursos de saúde com Entidades Nacionais de Ensino, Conselhos Profissionais da Saúde e Coordenadores de Curso de Graduação”, “As DCN e a Reorientação da Formação Profissional dos Cursos da Saúde”, “Sistematização da trajetória de Reorientação dos Cursos de Graduação da Saúde na UFRGS”, “Apresentação da história de Reorientação de Formação dos Cursos da Área da Saúde (videos)” e “Análise da conjuntura da saúde e cenário de resistência e perspectivas da integração Universidade e SUS”. Também houve exposições de pôsteres e tendas dos movimentos sociais. O seminário reuniu 230 participantes, contando com a presença de estudantes, professores, trabalhadores e gestores do SUS, e representantes da gestão da Universidade.
@@ -98,19 +101,18 @@
             </p>
         </div>
     </div>
-    <div class="row regimento p-5 pb-5">
-        <div class="col-12 col-md-8 mt-4">
-            <h2 class="greenTitle my-5 text-center text-md-left">Nosso Regimento</h2>
-            <p class="pt-4">Nosso Regimento pode ser acessado clicando <a href="<?php bloginfo("template_directory"); ?>/docs/RegimentoCoorSaúde.pdf" target="_blank" class="font-weight-bold">aqui</a></p>
-        </div>
-        <div class="col-3 d-none d-md-block mt-4">
-            <img src="<?php bloginfo("template_directory"); ?>/assets/RegimentoIcone.svg" alt="Ícone do documento do Regimento da Coordenadoria da Saúde" class="mt-5">
+    <div class="row regimento px-3 px-md-5 py-5">
+        <div class="col-12 px-md-0">
+            <h2 class="greenTitle text-center text-md-left mb-4">Nosso Regimento</h2>
+            <p class="mb-0">
+                Nosso Regimento pode ser acessado clicando <a href="<?php bloginfo("template_directory"); ?>/docs/RegimentoCoorSaúde.pdf" target="_blank" class="font-weight-bold">aqui</a>
+            </p>
         </div>
     </div>
     <div class="row distrito text-white p-4 p-md-5">
-        <div class="col-12 col-md-8 m-auto">
-            <h2 class="text-uppercase font-weight-bold m-0 px-2 p-md-0">Calendário de Reuniões</h2>
-            <p class="my-2 px-2 p-md-0 text-justify">
+        <div class="col-12 col-md-8 m-auto px-md-0">
+            <h2 class="text-uppercase font-weight-bold m-0 p-md-0">Calendário de Reuniões</h2>
+            <p class="mt-4 mb-0 p-md-0 text-justify">
                 As reuniões ordinárias da Coorsaúde acontecem todas as primeiras sextas-feiras do mês, das 10 às 12 horas. Para maiores informações, <a href="mailto:coordsaude@ufrgs.br?Subject=Calendário%20de%20Reuniões" class="font-weight-bold">envie um e-mail</a> para a CoorSaúde.
             </p>
         </div>
