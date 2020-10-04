@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="row sobre">
-        <div class="col-12 col-md-6 px-md-0">
+        <div class="col-12 col-md-6 px-md-0  order-md-2">
             <h2 class="greenTitleSpecial text-center text-md-left mb-4">Sobre a CoorSaúde</h2>
             <p class="text-justify mb-md-0">
                 A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Graduação(ProGrad)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do<span id="dots-sobre" class="d-xl-none">...</span><span id="more-sobre" class="d-none d-xl-inline">
@@ -39,7 +39,7 @@
                 <span class="font-weight-bold d-xl-none btn-leia" id="btn-sobre" onclick="ReadSobre()">Leia mais</span>
             </p>
         </div>
-        <div class="col-12 col-md-6 text-right pr-md-0">
+        <div class="col-12 col-md-6 text-right pl-md-0 order-md-1">
             <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da fachada da Universidade Federal do Rio Grande do Sul">
         </div>
     </div>
