@@ -39,7 +39,7 @@
                 <span class="font-weight-bold d-xl-none btn-leia" id="btn-sobre" onclick="ReadSobre()">Leia mais</span>
             </p>
         </div>
-        <div class="col-12 col-md-6 text-right pl-md-0 order-md-1">
+        <div class="col-12 col-md-6 text-md-left pl-md-0 order-md-1">
             <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da fachada da Universidade Federal do Rio Grande do Sul">
         </div>
     </div>

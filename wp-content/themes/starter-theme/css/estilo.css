@@ -295,9 +295,6 @@ body{
         .sobre{
             padding: 24px 48px 48px;
         }
-        .sobre p{
-            width: 330px;
-        }
         .sobre img{
             margin-bottom: 0;
         }
@@ -451,9 +448,6 @@ body{
         .sobre img{
             height: 300px;
         }
-        .sobre p{
-            width: 450px;
-        }
         /* HOME */
         .acoes-desenvolvidas{
             padding: 0 178px 5%;
@@ -507,6 +501,9 @@ body{
             padding: 48px 0;
             margin: 0 auto;
             max-width: 1010px;
+        }
+        .regimento{
+            background-position:  94% -90%;
         }
     }
     @media(min-width: 1920px){
