@@ -33,6 +33,23 @@ function ReadSeminario() {
     }
 }
 
+function ReadSobre() {
+    let dots = window.document.querySelector('#dots-sobre')
+    let btn = window.document.querySelector('#btn-sobre')
+    let text = window.document.querySelector('#more-sobre')
+
+    if(dots.style.display === 'none') {
+        dots.style.display = 'inline'
+        text.classList.add('d-none')
+        btn.innerHTML = 'Leia mais'
+    }
+    else {
+        dots.style.display = 'none'
+        text.classList.remove('d-none')
+        btn.innerHTML = 'Leia menos'
+    }
+}
+
 function atualizaLarguraTela(){
     largura = window.innerWidth
     console.log(largura)
