@@ -3,7 +3,7 @@ body{
     font-family: Arial, sans-serif;
 }
 /* LINKS GERAIS */
-    a:link, a:visited, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .dropdown-item, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, #btn-sobre{
+    a:link, a:visited, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .dropdown-item, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, .btn-leia, #btn-sobre, #btn-historic{
         color: #4DBA80;
         text-decoration: none;
     }
