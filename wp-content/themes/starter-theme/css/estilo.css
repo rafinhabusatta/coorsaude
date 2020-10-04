@@ -3,7 +3,7 @@ body{
     font-family: Arial, sans-serif;
 }
 /* LINKS GERAIS */
-    a:link, a:visited, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .dropdown-item, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, .btn-leia{
+    a:link, a:visited, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .dropdown-item, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, #btn-sobre{
         color: #4DBA80;
         text-decoration: none;
     }
@@ -13,7 +13,10 @@ body{
 } */
 /* BOTÕES */
     .btn-leia{
-        border-radius: 8px;
+        cursor: pointer;
+    }
+    #btn-seminario{
+        color: #DCFFEC;
     }
 /* BORDERS */
     .b-left{
@@ -80,6 +83,9 @@ body{
     .carousel img{
         height: 200px;
     }
+    .sobre{
+        padding: 24px 16px 48px;
+    }
     .sobre img{
         box-shadow: 2px 3px 80px #0000004D;
     }
@@ -90,11 +96,13 @@ body{
         padding: 30px;
     }
     .acoes-desenvolvidas{
+        padding: 0 30px 5%;
+    }
+    .acoes-bg{
         background: url(../assets/backAcoes.png) center bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        padding-bottom: 5%;
-        padding: 0 30px;
+        margin: 0 -15px;
     }
     .seminario{
         background: #4FB793;
@@ -109,6 +117,10 @@ body{
     .calendario{
         padding: 24px;
     }
+    .calendario-bg{
+        background: #4FB7AD;
+        margin: 0 -15px;
+    }
     /* REGIMENTO */
         .regimento{
             background: url(../assets/RegimentoMobile.svg);
@@ -122,13 +134,14 @@ body{
     .distrito{
         background: #4FB7AD;
     }
-    .distrito h2{
+    .distrito h2, .calendario h2{
         font-size: 22px;
     }
-    .distrito a:link, .distrito a:visited{
+    .distrito a:link, .distrito a:visited, 
+    .calendario a:link, .calendario a:visited{
         color: #4D87BA;
     }
-    .distrito a:hover{
+    .distrito a:hover, .calendario a:hover{
         color: #4D78BA;
     }
     .estagios{
@@ -279,6 +292,9 @@ body{
             background-size: 305px 292px;
         }
         /* Sobre a CoorSaúde */
+        .sobre{
+            padding: 24px 48px 48px;
+        }
         .sobre p{
             width: 330px;
         }
@@ -289,7 +305,7 @@ body{
         .seminario{
             padding: 48px;
         }
-        .seminario h2, .distrito h2{
+        .seminario h2, .distrito h2, .calendario h2{
             font-size: 32px;
         }
         .seminario h3{
@@ -304,7 +320,7 @@ body{
         }
         /* Ações Desenvolvidas */
         .acoes-desenvolvidas{
-            padding: 0 48px;
+            padding: 0 48px 5%;
         }
         .carousel img{
             height: 400px;
@@ -328,6 +344,10 @@ body{
             color: #19844b;
         }
         /* HOME */
+        .sobre{
+            padding: 24px 48px 16px;
+            margin: 48px;
+        }
         .historico{
             margin: 0 48px;
         }
@@ -340,13 +360,27 @@ body{
             top: -15px;
         }
         .acoes-desenvolvidas{
-            padding: 0 111px;
+            padding: 0 111px 5%;
         }
         .seminario{
             padding: 48px 111px;
         }
         .calendario{
             padding: 48px 111px;
+        }
+        .calendario a{
+            display: inline-block;
+        }
+        .calendario a::after{
+            content: '';
+            display: block;
+            height: 2px;
+            width: 0;
+            background:#4D78BA;
+            transition: width 0.2s;
+        }
+        .calendario a:hover::after{
+            width: 70%;
         }
         /* Carousel */
         .bg-coor{
@@ -412,12 +446,26 @@ body{
         /* Sobre a CoorSaúde */
         .sobre{
             margin: 48px 115px;
+            max-width: 1106px;
         }
         .sobre img{
             height: 300px;
         }
         .sobre p{
             width: 450px;
+        }
+        /* HOME */
+        .acoes-desenvolvidas{
+            padding: 0 178px 5%;
+        }
+        .historico{
+            margin: 0 115px;
+        }
+        .seminario{
+            padding: 48px 178px;
+        }
+        .regimento{
+            margin: 0 115px;
         }
         /* Carousel */
         .bg-coor{
@@ -429,6 +477,41 @@ body{
         /* Títulos */
         .coor{
             font-size: 170px;
+        }
+    }
+    @media(min-width: 1366px){
+        .sobre{
+            margin: 48px auto;
+            max-width: 1106px;
+        }
+        .caixa-acoes{
+            width: 280px;
+        }
+        .bg-coor{
+            height: 550px;
+        }
+        .acoes-desenvolvidas{
+            padding: 0 0 5%;
+            margin: 0 auto;
+            max-width: 1010px;
+        }
+        .historico, .regimento{
+            margin: 0 auto;
+            max-width: 1106px;
+        }
+        .seminario div{
+            max-width: 1010px;
+            margin: 0 auto;
+        }
+        .calendario{
+            padding: 48px 0;
+            margin: 0 auto;
+            max-width: 1010px;
+        }
+    }
+    @media(min-width: 1920px){
+        .bg-coor{
+            height: 750px;
         }
     }
 /* Content Posts */
