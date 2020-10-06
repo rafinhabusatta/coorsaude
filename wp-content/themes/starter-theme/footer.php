@@ -13,7 +13,7 @@
 					<h2 class="footer-title">Cursos Presentes na CoorSaúde</h2>
 					<ul class="list-1">
 						<li><a href="http://www.ufrgs.br/biomedicina/" target="_blank">Biomedicina</a></li>
-						<li><a href="https://www.ufrgs.br/biociencias/" target="_blank">Ciêcias Biológicas</a></li>
+						<li><a href="https://www.ufrgs.br/biociencias/" target="_blank">Ciências Biológicas</a></li>
 						<li><a href="https://www.ufrgs.br/esefid/site/" target="_blank">Educação Física</a></li>
 						<li><a href="http://www.ufrgs.br/eenf/escola-de-enfermagem-da-ufrgs" target="_blank">Enfermagem</a></li>
 						<li><a href="https://www.ufrgs.br/farmacia/" target="_blank">Farmácia</a></li>
@@ -105,8 +105,8 @@
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/bc723ac9fc.js" crossorigin="anonymous"></script>
 
-	<!-- MyJS -->
-	<script src="<?php bloginfo('template_directory') ?>/js/myjs.js"></script>
+	<!-- CustomJS -->
+	<script src="<?php bloginfo('template_directory') ?>/js/jscustom.js"></script>
 
 <?php wp_footer(); ?>
 
