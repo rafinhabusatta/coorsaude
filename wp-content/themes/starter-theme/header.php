@@ -54,7 +54,7 @@
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/contato">Contato</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
-								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcao">Publicações</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/pagina-em-construcao">Coronavírus</a>
 							</div>
 						</li>

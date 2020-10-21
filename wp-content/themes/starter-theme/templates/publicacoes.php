@@ -1,20 +1,11 @@
 <!-- Template name: Publicacoes -->
 <?php get_header(); ?>
     <div class="container-fluid">
-        <?php
-            $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-            $paged = strstr($actual_link, "page");
-            if($paged) :
-                $count = 3;
-            else :
-                $count = 0;
-                ?>
-                <div class="row publicacoes-destaque">
-                    <div class="col-12 my-5">
-                        <h2>Destaque</h2>
-                    </div>
-                </div>
-        <?php endif?>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="greenTitle text-center mb-4 mt-4 mt-md-5">Publicações</h1>
+            </div>
+        </div>
         <div class="row publicacoes">
             <div class="col-12 grid-container">
                 <?php 
