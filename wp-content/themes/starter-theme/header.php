@@ -45,11 +45,8 @@
 						<li class="nav-item">
 							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">Estágios</a>
 						</li>
-						<li class="nav-item">
-							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">PET-Saúde</a>
-						</li>
 						<!-- <li class="nav-item">
-							<a class="nav-link" href="/publicacoes">Publicações</a>
+							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">PET-Saúde</a>
 						</li> -->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
