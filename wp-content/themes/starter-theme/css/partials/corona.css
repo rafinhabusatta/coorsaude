@@ -1,0 +1,19 @@
+.header-corona{
+    background-color: #7EA1C1;
+}
+.post-corona{
+    background-color: #7EA1C1;
+    background-image: none;
+    width: 300px;
+    height: 317px;
+}
+
+.post-corona .titulo{
+    height: auto;
+    margin-top: 16px;
+    font-weight: bold;
+}
+.post-corona img{
+    border-radius: 4px;
+    height: 126px;
+}
