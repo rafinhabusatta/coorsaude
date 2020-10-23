@@ -46,6 +46,9 @@
                                 <p class="m-0">
                                     <?php the_content();?> 
                                 </p>
+                                <a href="<?php echo site_url(); ?>/publicacoes">
+                                    Ver todas as publicações
+                                </a>
                             </div>
                         </section>
                     </div>

@@ -109,6 +109,9 @@
     .publicacao-data{
         margin-left: 29px;
     }
+    .ml-100{
+        margin-left: 100px;
+    }
     /* SOCIAL ITENS */
     .social-media{
         float: left;
