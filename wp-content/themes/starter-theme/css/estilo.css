@@ -333,6 +333,10 @@ body{
 
     /* LARGE DEVICES */
     @media (min-width: 992px){
+        /* NAV */
+        nav li.nav-item{
+            font-size: 18px;
+        }
         /* Links Hover */
         .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .dropdown-item:hover, .btn-leia:hover{
             color: #19844b;

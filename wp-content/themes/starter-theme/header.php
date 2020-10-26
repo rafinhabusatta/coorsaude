@@ -47,14 +47,14 @@
 							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">Estágios</a>
 						</li>
 						<!-- <li class="nav-item">
-							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">PET-Saúde</a>
+							<a href="/pagina-em-construcao" class="nav-link">PET-Saúde</a>
 						</li> -->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
 							<div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/contato">Contato</a>
-								<a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a>
+								<!-- <a class="dropdown-item" href="<?php echo site_url(); ?>/links">Links</a> -->
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/publicacoes">Publicações</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/coronavirus">Coronavírus</a>
 							</div>
