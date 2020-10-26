@@ -19,23 +19,18 @@
                 <?php if ($coronavirus -> have_posts()) : while ($coronavirus -> have_posts()) : $coronavirus -> the_post(); ?>
                     
                         <a href="<?php the_permalink(); ?>">
-                            <div class="post post-corona">
-                                <div class="text-center p-4">
+                            <div class="post post-corona p-4">
+                                <div class="text-center">
                                     <img src="<?php bloginfo("template_directory"); ?>/assets/covid-192.png" alt="Ilustração do Coronavírus"  width="252" height="126">
                                     <h2 class="titulo"><?php the_title() ?></h2>
-                                    <div class="container-data">
-                                        <p>
-                                            <?php 
-                                                $data = get_field('data');
-                                                if(!empty($data)){
-                                                    echo $data; 
-                                                } 
-                                            ?>
-                                        </p>
-                                    </div>
-                                    <p>
-                                        <?php the_content();?> 
+                                    <p class="card-data mt-3">
+                                        <?php 
+                                           echo get_the_date( 'd/m/Y',$post->ID );
+                                        ?>
                                     </p>
+                                    <span class="card-content">
+                                        <?php the_content();?> 
+                                    </span>
                                 </div>
                             </div>
                         </a>

@@ -4,8 +4,8 @@
 .post-corona{
     background-color: #7EA1C1;
     background-image: none;
-    width: 300px;
-    height: 317px;
+    /* width: 300px; */
+    height: 370px;
 }
 
 .post-corona .titulo{
@@ -13,7 +13,22 @@
     margin-top: 16px;
     font-weight: bold;
 }
+
 .post-corona img{
     border-radius: 4px;
     height: 126px;
+}
+
+.card-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+.card-data{
+    text-align: left;
+    margin: 0;
 }
