@@ -180,7 +180,7 @@
                     TOASSI, R. F. C.; LEWGOY, A. M. B. <cite class="font-weight-bold">Práticas Integradas em Saúde I: uma experiência inovadora de integração intercurricular e interdisciplinar</cite>. Interface, Botucatu, v. 20, n. 57, p. 449-461, 2016.
                 </p>
                 <p class="text-justify">
-                    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL. Faculdade de Odontologia. Disciplina Práticas Integradas em Saúde I. Plano de ensino. Porto Alegre, 2012.
+                    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL. Faculdade de Odontologia. <cite class="font-weight-bold">Disciplina Práticas Integradas em Saúde I. Plano de ensino.</cite> Porto Alegre, 2012.
                 </p>
             </div>
         </div>
