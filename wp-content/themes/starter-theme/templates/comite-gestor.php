@@ -3,7 +3,8 @@
 <div class="container-fluid">
     <div class="row p-3 p-md-5 bg-header">
         <div class="col-12">
-            <h2 class="greenTitle text-center mb-4">Comissão de Gestão e Acompanhamento Local (CGAL)</h2>
+            <h2 class="greenTitle text-center mb-4 d-md-none">Comitê Gestor</h2>
+            <h2 class="greenTitle text-center mb-4 d-none d-md-block">Comissão de Gestão e Acompanhamento Local (CGAL)</h2>
             <div class="p-md-3">
                 <p class="text-justify">
                     Em 2008 foi instituída a Comissão de Gestão e Acompanhamento Local (CGAL), conhecida como Comitê Gestor. Por meio de reuniões quinzenais no Distrito Glória-Cruzeiro-Cristal, foi possível a problematização do cenário de prática, com aproximação entre os profissionais do Distrito Docente-Assistencial e a UFRGS e o acompanhamento da aplicação de recursos. Esta formação inicial contava com representantes da Universidade, da Gestão em nível técnico e administrativo e do Conselho Municipal da Saúde.
