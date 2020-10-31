@@ -43,13 +43,13 @@
                     Participam do Comitê Gestor
                 </h3>
                 <ul>
-                    <li class="pb-3">Representantes da Gerência do Distrito Glória-Cruzeiro-Cristal, Porto Alegre;</li>
-                    <li class="pb-3">Representantes da Gerência do Distrito Centro, Porto Alegre;</li>
-                    <li class="pb-3">Representantes da CoorSaúde, Universidade Federal do Rio Grande do Sul;</li>
-                    <li class="pb-3">Representante da Disciplina de Práticas Integradas em Saúde I, Universidade Federal do Rio Grande do Sul;</li>
-                    <li class="pb-3">Representantes dos Conselhos Distritais e do Conselho Municipal de Saúde (CMS) de Porto Alegre;</li>
-                    <li class="pb-3">Representantes da Comissão Permanente de Ensino e Serviço (CPES) da Secretaria Municipal de Saúde de Porto Alegre;</li>
-                    <li class="pb-3">Também é convidada, mensalmente, a representação da Comissão de Residência Multiprofissional (COREMU) da Universidade Federal do Rio Grande do Sul.</li>
+                    <li class="pb-3">Representantes da Gerência do Distrito Glória-Cruzeiro-Cristal, Porto Alegre</li>
+                    <li class="pb-3">Representantes da Gerência do Distrito Centro, Porto Alegre</li>
+                    <li class="pb-3">Representantes da CoorSaúde, Universidade Federal do Rio Grande do Sul</li>
+                    <li class="pb-3">Representante da Disciplina de Práticas Integradas em Saúde I, Universidade Federal do Rio Grande do Sul</li>
+                    <li class="pb-3">Representantes dos Conselhos Distritais e do Conselho Municipal de Saúde (CMS) de Porto Alegre</li>
+                    <li class="pb-3">Representantes da Comissão Permanente de Ensino e Serviço (CPES) da Secretaria Municipal de Saúde de Porto Alegre</li>
+                    <li class="pb-3">Também é convidada, mensalmente, a representação da Comissão de Residência Multiprofissional (COREMU) da Universidade Federal do Rio Grande do Sul</li>
                 </ul>
             </div>
         </div>
@@ -117,16 +117,16 @@
             </div>
         </div>
     </div>
-    <div class="row p-4 p-md-5">
+    <!-- <div class="row p-4 p-md-5">
         <div class="col-12 col-md-8 m-auto">
             <h2 class="greenTitle my-5 text-center">Seleção de Preceptores</h2>
             <p class="m-0">
-                Está aberto o <a href="<?php bloginfo("template_directory"); ?>/docs/edital-de-selecao-de-preceptores.pdf" target="_blank" class="font-weight-bold">Edital para Cadastro e Seleção de Preceptores</a>  para o Programa de Educação pelo Trabalho para a Saúde (PET Saúde) e demais projetos aprovados pelo Ministério da Saúde para os territórios das Gerências Distritais Glória/Cruzeiro/Cristal e Centro da cidade de Porto Alegre em execução pela Universidade Federal do Rio Grande do Sul (UFRGS).
+                Está aberto o <a href="<?php //bloginfo("template_directory"); ?>/docs/edital-de-selecao-de-preceptores.pdf" target="_blank" class="font-weight-bold">Edital para Cadastro e Seleção de Preceptores</a>  para o Programa de Educação pelo Trabalho para a Saúde (PET Saúde) e demais projetos aprovados pelo Ministério da Saúde para os territórios das Gerências Distritais Glória/Cruzeiro/Cristal e Centro da cidade de Porto Alegre em execução pela Universidade Federal do Rio Grande do Sul (UFRGS).
             </p>
         </div>
         <div class="col-4 d-none d-md-block my-3">
-            <img src="<?php bloginfo("template_directory"); ?>/assets/RegimentoIcone.svg" alt="Ícone de pesquisas e referências">
+            <img src="<?php //bloginfo("template_directory"); ?>/assets/RegimentoIcone.svg" alt="Ícone de pesquisas e referências">
         </div>
-    </div>
+    </div> -->
 </div>
 <?php get_footer(); ?>
