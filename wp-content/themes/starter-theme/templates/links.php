@@ -23,7 +23,7 @@
 
                     <li><a href="http://www.redeunida.org.br/pt-br/" target="_blank">Rede Unida</a></li>
                     <li><a href="http://www2.portoalegre.rs.gov.br/sms/" target="_blank">Secretaria Municipal de Saúde</a></li>
-                    //<li><a href="https://www.ufrgs.br/telessauders/" target="_blank">TelessaúdeRS</a></li>
+                    <li><a href="https://www.ufrgs.br/telessauders/" target="_blank">TelessaúdeRS</a></li>
                 </ul>
                 <h3>Cursos da Área da Saúde na UFRGS</h3>
                 <p>

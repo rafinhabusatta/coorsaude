@@ -54,40 +54,62 @@
 				</ul>	
 			</div>
 		</div>
-		<div class="footer-5 mt-5">
+	</div>
+	<div class="container-fluid footer-logos mt-5">
+		<div class="footer-5">
 			<div class="row py-5 footer-logo-width">
-				<div class="col-4 col-lg">
-					<a href="<?php echo site_url(); ?>"><img src="<?php bloginfo("template_directory"); ?>/assets/coorsaude-logo.svg" alt="Coordenadoria da Saúde da Universidade Federal do Rio Grande do Sul"></a>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="<?php echo site_url(); ?>"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/coorsaude-logo-mobile.svg" alt="Coordenadoria da Saúde da Universidade Federal do Rio Grande do Sul">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/coorsaude-logo.svg" alt="Coordenadoria da Saúde da Universidade Federal do Rio Grande do Sul"></a>
 				</div>
-				<div class="col-4 col-lg">
-					<a href="http://www.ufrgs.br"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/ufrgs-logo.png" alt="Universidade Federal do Rio Grande do Sul"></a>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="http://www.ufrgs.br" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/ufrgs-logo-mobile.svg" alt="Universidade Federal do Rio Grande do Sul">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a>
 				</div>
-				<div class="col-4 col-lg">
-					<a href="https://www.ufrgs.br/prograd"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/prograd-logo.png" alt="Pró Reitoria de Graduação da Universidade Federal do Rio Grande do Sul"></a>
+				<div class="col-4 col-lg align-self-center my-lg-4 text-center">
+					<a href="https://www.ufrgs.br/prograd" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/prograd-logo-mobile.svg" alt="Pró Reitoria de Graduação da Universidade Federal do Rio Grande do Sul">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/prograd-logo.svg" alt="Pró Reitoria de Graduação da Universidade Federal do Rio Grande do Sul"></a>
 				</div>
-				<div class="col-4 col-lg mt-5 mt-lg-0">
-					<a href="https://www.ufrgs.br/prae"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/prae-logo.png" alt="Pró Reitoria de Assuntos Estudantis da Universidade Federal do Rio Grande do Sul"></a>
+
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
+					<a href="https://www.ufrgs.br/prae" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/prae-logo.svg" alt="Pró Reitoria de Assuntos Estudantis da Universidade Federal do Rio Grande do Sul">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/prae-logo.svg" alt="Pró Reitoria de Assuntos Estudantis da Universidade Federal do Rio Grande do Sul"></a>
 				</div>
-				<div class="col-4 col-lg mt-5 mt-lg-0">
-					<a href="http://www2.portoalegre.rs.gov.br/cms"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/cms-logo.svg" alt="Conselho Municipal de Saúde"></a>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
+					<a href="http://www2.portoalegre.rs.gov.br/cms" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/cms-logo-mobile.svg" alt="Conselho Municipal de Saúde">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/cms-logo.svg" alt="Conselho Municipal de Saúde"></a>
 				</div>
-				<div class="col-4 col-lg mt-5 mt-lg-0">
-					<a href="https://www.gov.br/mec" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/mec-logo.svg" alt="Ministério da Educação"></a>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
+					<a href="https://www.gov.br/mec" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/mec-logo-mobile.svg" alt="Ministério da Educação">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/mec-logo.svg" alt="Ministério da Educação"></a>
 				</div>
-				<div class="col-4 col-lg mt-5">
-					<a href="http://www.redeunida.org.br/pt-br"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/rede-unida-logo.png" alt="Rede Unida"></a>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
+					<a href="http://www.redeunida.org.br/pt-br" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/rede-unida-logo-mobile.svg" alt="Rede Unida">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/rede-unida-logo.svg" alt="Rede Unida"></a>
 				</div>
-				<div class="col-4 col-lg mt-5">
-					<a href="https://www.saude.gov.br"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/ministerio-da-saude-logo.svg" alt="Ministério da Saúde"></a>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center ministerio">
+					<a href="https://www.saude.gov.br" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/ministerio-da-saude-logo-mobile.svg" alt="Ministério da Saúde/PET-Saúde">
+					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/ministerio-da-saude-logo.svg" alt="Ministério da Saúde/PET-Saúde"></a>
 				</div>
-				<div class="col-4 col-lg mt-5">
-					<a href="http://www2.portoalegre.rs.gov.br/sms"  target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/sms-logo.svg" alt="Secretaria Municipal de Saúde" class="d-none d-lg-block"><span class="d-lg-none text-white font-weight-bold fs-22">SMS</span></a>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
+					<a href="http://www2.portoalegre.rs.gov.br/sms" target="_blank"><span class="text-white font-weight-bold fs-22">SMS</span></a>
+				</div>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center abrasco">
+					<a href="https://www.abrasco.org.br/site/" target="_blank"><span class="text-white font-weight-bold fs-22">Abrasco</span></a>
+				</div>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center otics">
+					<a href="http://www.otics.org/otics/" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/otics-logo.svg" alt="Otics"></a>
+				</div>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
+					<a href="https://www.instagram.com/pet_ip_ufrgs/" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/pet-insta.svg" alt="PET-Saúde Interprofissionalidade"></a>
+				</div>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center my-4 text-center tele">
+					<a href="https://www.ufrgs.br/telessauders" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/telessauders-logo.svg" alt="TelessaúdeRS"></a>
 				</div>
 			</div>
 		</div>
-		<!-- <div class="footer-5-2">
-			<div class="row footer-logo-width pb-5"></div>
-		</div> -->
+	</div>
+	<div class="container-fluid">
 		<div class="row py-3 footer-6">
 			<div class="col-12 text-center font-weight-bold">
 				CoorSaúde - UFRGS
