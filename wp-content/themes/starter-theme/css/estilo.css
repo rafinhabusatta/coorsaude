@@ -121,6 +121,9 @@ body{
         background: #4FB7AD;
         margin: 0 -15px;
     }
+    #more-historic{
+        transition: all 0.2s;
+    }
     /* REGIMENTO */
         .regimento{
             background: url(../assets/RegimentoMobile.svg);
