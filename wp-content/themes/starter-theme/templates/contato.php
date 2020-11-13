@@ -31,8 +31,7 @@
                 <div class="mt-5 mt-lg-0">
                     <h3 class="text-center">Onde estamos?</h3>
                     <div class="map-wrap box-contato d-flex flex-column align-items-center">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d726.070798705729!2d-51.20885702977964!3d-30.04276040915674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519784f9e07c47d%3A0x6bd1318f65bdeee4!2sR.%20Ramiro%20Barcelos%2C%202777%20-%20Santana%2C%20Porto%20Alegre%20-%20RS%2C%2090035-007!5e0!3m2!1spt-BR!2sbr!4v1597081754982!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        <p id="map-adress"class="mt-2 mb-0">Rua Ramiro Barcelos, 2777, Sala 163 - Porto Alegre/RS</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13815.17040414393!2d-51.2082643!3d-30.0428074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb67e83db1cbc8a5f!2sCoorSa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1605298733916!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
