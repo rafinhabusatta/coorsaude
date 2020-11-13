@@ -12,6 +12,9 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+		<!-- Animte CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 		<!-- Estilo Personalizado -->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/estilo.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/contato.css">

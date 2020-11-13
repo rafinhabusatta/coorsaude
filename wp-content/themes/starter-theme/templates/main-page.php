@@ -6,7 +6,7 @@
             <div id="carousel-Coorsaude" class="carousel slide" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active bg-coor">
-                        <h1 class="coor">Coor<span class="saude">Saúde</span></h1>
+                        <h1 class="coor animate__animated animate__lightSpeedInLeft">Coor<span class="saude">Saúde</span></h1>
                     </div>
                     <!-- <div class="carousel-item">
                         <img class="d-block w-100" src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Segundo slide" width="800">
@@ -48,13 +48,13 @@
             <div class="col-12 mb-3">
                 <h2 class="greenTitle mt-4">Ações Desenvolvidas</h2>
             </div>
-            <div class="col-12 col-md- col-lg-4 mb-5 box-sombra d-table caixa-acoes">
+            <div class="col-12 col-md- col-lg-3 mb-5 box-sombra d-table caixa-acoes">
                 <p class="d-table-cell align-middle">Disciplinas Integradoras PIS I e PIS II</p>
             </div>
-            <div class="col-12 col-md- col-lg-4 mb-5 box-sombra d-table caixa-acoes">
+            <div class="col-12 col-md- col-lg-3 mb-5 box-sombra d-table caixa-acoes">
                 <p class="d-table-cell align-middle">Comissão de Gestão e Acompanhamento Local (CGAL)</p>
             </div>
-            <div class="col-12 col-md- col-lg-4 mb-5 box-sombra d-table caixa-acoes">
+            <div class="col-12 col-md- col-lg-3 mb-5 box-sombra d-table caixa-acoes">
                 <p class="d-table-cell align-middle">PET-Saúde na UFRGS</p>
             </div>
         </div>
