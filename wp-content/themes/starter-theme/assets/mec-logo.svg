@@ -1,13 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="30" viewBox="0 0 48 30">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-        font-size: 22px;
-        font-family: SegoeUI-Bold, Segoe UI;
-        font-weight: 700;
-      }
-    </style>
-  </defs>
-  <text id="mec-logo" class="cls-1" transform="translate(24 24)"><tspan x="-23.246" y="0">MEC</tspan></text>
+  <text id="mec-logo" transform="translate(24 24)" fill="#fff" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-23.246" y="0">MEC</tspan></text>
 </svg>

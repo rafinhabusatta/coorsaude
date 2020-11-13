@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104.524" height="42.507" viewBox="0 0 104.524 42.507">
+  <g id="coorsaude-logo-mobile" transform="translate(-675 -789.431)">
+    <g id="Background" transform="matrix(0.966, -0.259, 0.259, 0.966, 739.174, 792.185)">
+      <g id="Mascote" transform="matrix(0.966, 0.259, -0.259, 0.966, 10.638, 0)">
+        <ellipse id="Elipse_4176" data-name="Elipse 4176" cx="3.724" cy="4.8" rx="3.724" ry="4.8" transform="translate(17.378 0) rotate(14)" fill="#fff"/>
+        <path id="Caminho_26" data-name="Caminho 26" d="M13.678,0S6.863,3.389,2.768,9.31A15.692,15.692,0,0,0,.323,14.8,20.547,20.547,0,0,0,4.275,30.912" transform="translate(15.056 10.19)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <path id="Caminho_27" data-name="Caminho 27" d="M0,31.106s11.42-5.678,13.439-14.891A20.683,20.683,0,0,0,9.464,0" transform="translate(0 4.2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="CoorSaúde_Brand" data-name="CoorSaúde Brand" transform="translate(675 794.233)">
+      <text id="Coor" transform="translate(0 16.014)" fill="#fff" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Coor</tspan></text>
+      <text id="Saúde" transform="translate(36.52 16.014)" fill="#fff" font-size="15" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Saúde</tspan></text>
+    </g>
+  </g>
+</svg>

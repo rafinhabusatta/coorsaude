@@ -203,10 +203,11 @@ body{
 }
 .footer-5 .footer-logo-width{
     margin: 0 -30px;
-    background-color: #7CD9A7;
+    padding: 0 15px;
+}
+.footer-5{
     display: flex;
     align-items: center;
-    padding: 0 15px;
 }
 .footer-5 img{
     max-width: 100px;
@@ -218,6 +219,9 @@ body{
 }
 .footer h2{
     font-weight: bold;
+}
+.footer-logos{
+    background-color: #7CD9A7;
 }
 /* MEDIA QUERIES */
 
@@ -327,7 +331,7 @@ body{
             font-size: 22px;
         }
         .footer-5 img{
-            max-width: 150px;
+            max-width: 115px;
         }
     }
 
@@ -426,19 +430,32 @@ body{
         }
         .footer-logo-width{
             max-width: 1000px;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto; 
         }
         .footer-5 .footer-logo-width{
             margin: 0 -48px;
             padding: 0 33px;
-            /* display: grid;
-            grid-template-columns: auto auto auto auto auto auto;
-            grid-template-rows: auto auto;
-            align-items: center; */
         }
         .footer-5{
-            background-color: #7CD9A7;
             display: flex;
             justify-content: center;
+        }
+        .otics{
+            grid-column: 1/span 2;
+            text-align: center;
+        }
+        .abrasco{
+            grid-column: 5/span 2;
+            text-align: center;
+        }
+        .tele{
+            grid-column: 4/span 3;
+        }
+        .ministerio{
+            grid-column: 2/span 2;
+            text-align: center;
         }
     }
 
