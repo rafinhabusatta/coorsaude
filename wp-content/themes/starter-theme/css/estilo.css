@@ -126,7 +126,7 @@ body{
         font-size: 13px;
     }
     .calendario{
-        padding: 24px;
+        padding: 24px 16px;
     }
     .bloco-secundario-bg{
         background: #4FB7AD;
