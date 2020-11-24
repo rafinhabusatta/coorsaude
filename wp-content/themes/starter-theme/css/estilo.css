@@ -143,6 +143,7 @@ body{
 
 /* CENÁRIOS DE PRÁTICA */
     .distrito{
+        background: #4FB7AD;
         padding: 24px 16px;
     }
     .distrito h2, .calendario h2{
