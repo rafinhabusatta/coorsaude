@@ -101,7 +101,7 @@
             </p>
         </div>
     </div>
-    <div class="calendario-bg px-3">
+    <div class="bloco-secundario-bg px-3">
         <div class="row calendario text-white">
             <div class="col-12 col-md-8 px-md-0">
                 <h2 class="text-uppercase font-weight-bold m-0 p-md-0">Calendário de Reuniões</h2>

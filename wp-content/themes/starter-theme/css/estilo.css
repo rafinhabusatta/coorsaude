@@ -1,3 +1,12 @@
+.bloco-container{
+    padding: 48px 16px 16px;
+}
+.page-header{
+    padding: 32px 16px 16px;
+    margin-left: 0;
+    margin-right: 0;
+    background: url(../assets/cenarios-de-pratica-header-mobile.svg) center/contain no-repeat;
+}
 /* BODY */
 body{
     font-family: Arial, sans-serif;
@@ -36,6 +45,7 @@ body{
     .greenTitle{
         color: #4DBA80;
         font-weight: 700;
+        font-size: 28px;
     }
     .greenTitleSpecial{
         color: #4DBA80;
@@ -52,8 +62,9 @@ body{
         color: #4DBA80;
     }
 /* BACKGROUNDS */
-    .bg-cinza{
-        background-color: #fbf7f7;
+    .bg-header{
+        background-color: #E3F3E8;
+        margin: 0 -15px;
     }
 /* MENU DE NAVEGAÇÃO */
     .fundo-coor{
@@ -117,7 +128,7 @@ body{
     .calendario{
         padding: 24px;
     }
-    .calendario-bg{
+    .bloco-secundario-bg{
         background: #4FB7AD;
         margin: 0 -15px;
     }
@@ -132,7 +143,7 @@ body{
 
 /* CENÁRIOS DE PRÁTICA */
     .distrito{
-        background: #4FB7AD;
+        padding: 24px 16px;
     }
     .distrito h2, .calendario h2{
         font-size: 22px;
@@ -282,6 +293,13 @@ body{
 
     /* MEDIUM DEVICES */
     @media (min-width: 768px){
+        /* Bloco Container */
+        .bloco-container{
+            padding: 48px;
+        }
+        .page-header{
+            background: none;
+        }
         /* Títulos */
         .greenTitle{
             font-size: 59px;
@@ -303,7 +321,7 @@ body{
             margin-bottom: 0;
         }
         /* Seminario e Cenários de Prática */
-        .seminario{
+        .seminario, .distrito, .page-header, .calendario{
             padding: 48px;
         }
         .seminario h2, .distrito h2, .calendario h2{
@@ -311,9 +329,6 @@ body{
         }
         .seminario h3{
             font-size: 18px;
-        }
-        .calendario{
-            padding: 48px;
         }
         /* Carousel */
         .bg-coor{
@@ -337,6 +352,10 @@ body{
 
     /* LARGE DEVICES */
     @media (min-width: 992px){
+        /* Bloco Container */
+        .bloco-container{
+            padding: 48px 111px;
+        }
         /* NAV */
         nav li.nav-item{
             font-size: 18px;
@@ -367,10 +386,8 @@ body{
         .acoes-desenvolvidas{
             padding: 0 111px 5%;
         }
-        .seminario{
-            padding: 48px 111px;
-        }
-        .calendario{
+        /* Seminário e Cenários de Prática */
+        .seminario, .distrito, .page-header, .calendario{
             padding: 48px 111px;
         }
         .calendario a{
@@ -461,6 +478,12 @@ body{
 
     /* EXTRA LARGE DEVICES */
     @media (min-width: 1200px){
+        /* Bloco Container */
+        .bloco-container{
+            margin: 48px 162px;
+            padding: 0;
+            max-width: 1010px;
+        }
         /* Sobre a CoorSaúde */
         .sobre{
             margin: 48px 115px;
@@ -476,7 +499,8 @@ body{
         .historico{
             margin: 0 115px;
         }
-        .seminario{
+        /* Seminário e Cenários de Prática */
+        .seminario, .distrito, .page-header, .calendario{
             padding: 48px 178px;
         }
         .regimento{
@@ -495,6 +519,12 @@ body{
         }
     }
     @media(min-width: 1366px){
+        /* Bloco Container */
+        .bloco-container{
+            margin: 48px auto;
+            padding: 0;
+            max-width: 1010px;
+        }
         .sobre{
             margin: 48px auto;
             max-width: 1106px;
@@ -514,14 +544,12 @@ body{
             margin: 0 auto;
             max-width: 1106px;
         }
-        .seminario div{
+        .seminario div, .distrito, .calendario, .page-header div, .page-header{
             max-width: 1010px;
             margin: 0 auto;
         }
-        .calendario{
+        .distrito, .calendario, .page-header{
             padding: 48px 0;
-            margin: 0 auto;
-            max-width: 1010px;
         }
         .regimento{
             background-position:  94% -90%;
