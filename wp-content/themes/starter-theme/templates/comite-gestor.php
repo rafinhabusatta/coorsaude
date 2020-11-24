@@ -1,7 +1,7 @@
 <!-- Template name: Comite-Gestor -->
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="row p-3 p-md-5 bg-cinza">
+    <div class="row p-3 p-md-5 bg-header">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Comissão de Gestão e Acompanhamento Local (CGAL)</h2>
             <div class="p-md-3">
