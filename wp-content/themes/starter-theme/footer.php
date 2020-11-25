@@ -100,12 +100,12 @@
 				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center otics">
 					<a href="http://www.otics.org/otics/" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/otics-logo.svg" alt="Otics"></a>
 				</div>
-				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
-					<a href="https://www.instagram.com/pet_ip_ufrgs/" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/pet-insta.svg" alt="PET-Saúde Interprofissionalidade"></a>
-				</div>
-				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center my-4 text-center tele">
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center my-4 text-center">
 					<a href="https://www.ufrgs.br/telessauders" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/telessauders-logo.svg" alt="TelessaúdeRS"></a>
 				</div>
+				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center pet">
+					<a href="https://www.instagram.com/pet_ip_ufrgs/" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/pet-insta.svg" alt="PET-Saúde Interprofissionalidade"></a>
+				</div>	
 			</div>
 		</div>
 	</div>
