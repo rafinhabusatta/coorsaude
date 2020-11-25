@@ -89,7 +89,7 @@
 				</div>
 				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center ministerio">
 					<a href="https://www.saude.gov.br" target="_blank"><img class="d-lg-none" src="<?php bloginfo("template_directory"); ?>/assets/ministerio-da-saude-logo-mobile.svg" alt="Ministério da Saúde/PET-Saúde">
-					<img class="d-none d-lg-block" src="<?php bloginfo("template_directory"); ?>/assets/ministerio-da-saude-logo.svg" alt="Ministério da Saúde/PET-Saúde"></a>
+					<img class="d-none d-lg-inline" src="<?php bloginfo("template_directory"); ?>/assets/ministerio-da-saude-logo.svg" alt="Ministério da Saúde/PET-Saúde"></a>
 				</div>
 				<div class="col-4 col-lg mt-3 mt-lg-0 align-self-center text-center">
 					<a href="http://www2.portoalegre.rs.gov.br/sms" target="_blank"><span class="text-white font-weight-bold fs-22">SMS</span></a>
