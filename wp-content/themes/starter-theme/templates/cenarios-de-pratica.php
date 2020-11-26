@@ -1,18 +1,22 @@
 <!-- Template name: Cenarios-Pratica -->
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="bg-header">
-        <div class="row page-header">
-            <div class="col-12 px-md-0">
-                <h2 class="greenTitle text-center mb-4">Cenários de Prática</h2>
+    <div class="row bg-header">
+        <div class="col-12 page-header cenarios-de-pratica">
+            <div class="row">
+                <div class="col-12 px-md-0">
+                    <h1 class="greenTitle text-center mb-4">Cenários de Prática</h1>
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-8 px-md-0 m-xl-auto">
-                <p class="text-justify mb-md-0">
-                    Os Cenários de Prática são os locais onde são realizadas atividades/práticas de ensino, extensão e pesquisa pelos estudantes e profissionais da UFRGS. Para os cursos da saúde, os cenários preferenciais para atuação são os Distritos Docentes-Assistenciais (DDA) da Universidade Federal do Rio Grande do Sul (UFRGS): Glória-Cruzeiro-Cristal e Centro, em Porto Alegre.
-                </p>
-            </div>
-            <div class="col-6 col-xl-4 d-none d-md-block pr-0">
-                <img src="<?php bloginfo("template_directory"); ?>/assets/cenarios-de-pratica-header.svg" alt="Ícone do espírito de time">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-8 px-md-0 m-xl-auto">
+                    <p class="text-justify mb-md-0">
+                        Os Cenários de Prática são os locais onde são realizadas atividades/práticas de ensino, extensão e pesquisa pelos estudantes e profissionais da UFRGS. Para os cursos da saúde, os cenários preferenciais para atuação são os Distritos Docentes-Assistenciais (DDA) da Universidade Federal do Rio Grande do Sul (UFRGS): Glória-Cruzeiro-Cristal e Centro, em Porto Alegre.
+                    </p>
+                </div>
+                <div class="col-6 col-xl-4 d-none d-md-block pr-0">
+                    <img src="<?php bloginfo("template_directory"); ?>/assets/cenarios-de-pratica-header.svg" alt="Ícone do espírito de time">
+                </div>
             </div>
         </div>
     </div>
@@ -42,16 +46,18 @@
             </p>
         </div>
     </div>
-    <div class="bloco-secundario-bg mt-2 px-3">
-        <div class="row distrito text-white">
-            <div class="col-12 col-md-8 m-auto pl-md-0">
-                <h2 class="text-uppercase font-weight-bold m-0">Página do Distrito Glória-Cruzeiro-Cristal</h2>
-                <p class="my-2 text-justify">
-                    Para acessar a página do Distrito Glória-Cruzeiro-Cristal no site da Prefeitura Municipal de Porto Alegre, clique <a href="http://www2.portoalegre.rs.gov.br/sms/default.php?p_secao=837" target="_blank" class="font-weight-bold">aqui</a>
-                </p>
-            </div>
-            <div class="col-4 d-none d-md-block my-3 pr-md-0">
-                <img src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
+    <div class="row bloco-secundario-bg mt-2 px-3">
+        <div class="col-12 distrito text-white">
+            <div class="row">
+                <div class="col-12 col-md-8 m-auto pl-md-0">
+                    <h2 class="text-uppercase font-weight-bold m-0">Página do Distrito Glória-Cruzeiro-Cristal</h2>
+                    <p class="my-2 text-justify">
+                        Para acessar a página do Distrito Glória-Cruzeiro-Cristal no site da Prefeitura Municipal de Porto Alegre, clique <a href="http://www2.portoalegre.rs.gov.br/sms/default.php?p_secao=837" target="_blank" class="font-weight-bold">aqui</a>
+                    </p>
+                </div>
+                <div class="col-4 d-none d-md-block my-3 pr-md-0">
+                    <img src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
+                </div>
             </div>
         </div>
     </div>
@@ -81,16 +87,18 @@
             </p>
         </div>
     </div>
-    <div class="bloco-secundario-bg mt-2 px-3">
-        <div class="row distrito text-white">
-            <div class="col-12 col-md-8 m-auto pl-md-0">
-                <h2 class="text-uppercase font-weight-bold m-0">Página do Distrito Centro</h2>
-                <p class="my-2 text-justify">
-                    Para acessar a página do Distrito Centro no site da Prefeitura Municipal de Porto Alegre, clique <a href="http://www2.portoalegre.rs.gov.br/sms/default.php?p_secao=834" target="_blank" class="font-weight-bold">aqui</a>
-                </p>
-            </div>
-            <div class="col-4 d-none d-md-block my-3 pr-md-0">
-                <img src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
+    <div class="row bloco-secundario-bg mt-2 px-3">
+        <div class="col-12 distrito text-white">
+            <div class="row">
+                <div class="col-12 col-md-8 m-auto pl-md-0">
+                    <h2 class="text-uppercase font-weight-bold m-0">Página do Distrito Centro</h2>
+                    <p class="my-2 text-justify">
+                        Para acessar a página do Distrito Centro no site da Prefeitura Municipal de Porto Alegre, clique <a href="http://www2.portoalegre.rs.gov.br/sms/default.php?p_secao=834" target="_blank" class="font-weight-bold">aqui</a>
+                    </p>
+                </div>
+                <div class="col-4 d-none d-md-block my-3 pr-md-0">
+                    <img src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
+                </div>
             </div>
         </div>
     </div>

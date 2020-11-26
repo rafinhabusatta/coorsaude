@@ -2,9 +2,11 @@
     padding: 48px 16px 16px;
 }
 .page-header{
-    padding: 32px 16px 16px;
+    padding: 48px 16px 16px;
     margin-left: 0;
     margin-right: 0;
+}
+.page-header.cenarios-de-pratica{
     background: url(../assets/cenarios-de-pratica-header-mobile.svg) center/contain no-repeat;
 }
 /* BODY */
@@ -64,7 +66,7 @@ body{
 /* BACKGROUNDS */
     .bg-header{
         background-color: #E3F3E8;
-        margin: 0 -15px;
+        padding: 0 15px;
     }
 /* MENU DE NAVEGAÇÃO */
     .fundo-coor{
@@ -143,6 +145,7 @@ body{
 
 /* CENÁRIOS DE PRÁTICA */
     .distrito{
+        background: #4FB7AD;
         padding: 24px 16px;
     }
     .distrito h2, .calendario h2{
@@ -155,8 +158,12 @@ body{
     .distrito a:hover, .calendario a:hover{
         color: #4D78BA;
     }
+/* ESTÁGIOS */
     .estagios{
         background-image: -webkit-linear-gradient(30deg, #47d39f 50%, #ffffff 50%);
+    }
+    .estagios ul, .sms-estagios ol, .estagios ol{
+        list-style-type: none;
     }
 /* DISCIPLINAS INTEGRADORAS */
     .tabela-cor-texto{
@@ -297,7 +304,7 @@ body{
         .bloco-container{
             padding: 48px;
         }
-        .page-header{
+        .page-header.cenarios-de-pratica{
             background: none;
         }
         /* Títulos */
@@ -467,7 +474,7 @@ body{
             grid-column: 5/span 2;
             text-align: center;
         }
-        .tele{
+        .pet{
             grid-column: 4/span 3;
         }
         .ministerio{
@@ -550,6 +557,9 @@ body{
         }
         .distrito, .calendario, .page-header{
             padding: 48px 0;
+        }
+        .distrito > .row{
+            margin: auto 0;
         }
         .regimento{
             background-position:  94% -90%;
