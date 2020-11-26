@@ -48,7 +48,7 @@
     </div>
     <div class="row bloco-secundario-bg mt-2 px-3">
         <div class="col-12 distrito text-white">
-            <div class="row mx-xl-0">
+            <div class="row">
                 <div class="col-12 col-md-8 m-auto pl-md-0">
                     <h2 class="text-uppercase font-weight-bold m-0">Página do Distrito Glória-Cruzeiro-Cristal</h2>
                     <p class="my-2 text-justify">
@@ -56,7 +56,7 @@
                     </p>
                 </div>
                 <div class="col-4 d-none d-md-block my-3 pr-md-0">
-                    <img class="h-100" src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
+                    <img src="<?php bloginfo("template_directory"); ?>/assets/link-screen.svg" alt="Ícone de uma página web">
                 </div>
             </div>
         </div>

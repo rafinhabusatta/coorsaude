@@ -558,7 +558,7 @@ body{
         .distrito, .calendario, .page-header{
             padding: 48px 0;
         }
-        .distrito row{
+        .distrito > .row{
             margin: auto 0;
         }
         .regimento{

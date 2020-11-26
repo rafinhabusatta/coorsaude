@@ -4,30 +4,30 @@
         <div class="row bloco-secundario-bg px-3">
             <div class="col-12 distrito text-white pt-5">
                 <div class="row">
-                    <div class="col-12 col-md-8 m-auto">
+                    <div class="col-12 col-md-8 m-auto pl-md-0">
                         <h2 class="text-uppercase font-weight-bold m-0"><span>ATENÇÃO:</span> Novo Fluxo de Estágios UFRGS na SMS Porto Alegre</h2>
                         <p class="my-2 text-justify">
                             Em vista da necessidade de ajustes no procedimento para habilitação das atividades de ensino nos serviços da SMS via FORMSUS durante a vigência das medidas de emergência sanitária do COVID-19, a partir de 30 de abril de 2020 foi estabelecido o <a href="<?php bloginfo("template_directory"); ?>/docs/Novo-fluxo-simplificado-para-ingresso-em-campo-SMSPOA.pdf" target="_blank" class="font-weight-bold">fluxo simplificado para tramitação dos Planos de Trabalho</a>. O encaminhamento para homologação de Termos de Compromisso de Estágios da Graduação dar-se-á de acordo com o tutorial que pode ser baixado <a href="<?php bloginfo("template_directory"); ?>/docs/Fluxo-para-homologacao-de-Termos-de-Compromisso-de-Estagio-SMS-UFRGS.pdf" target="_blank" class="font-weight-bold">aqui</a>. 
                         </p>
                     </div>
-                    <div class="col-4 d-none d-md-block my-3">
+                    <div class="col-4 d-none d-md-block my-3 pr-md-0">
                         <img src="<?php bloginfo("template_directory"); ?>/assets/social_distancing.svg" alt="Ilustração de distanciamento social.">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row p-3 pt-5 p-md-5 estagios">
-            <div class="col-12">
+        <div class="row bloco-container estagios pb-4 pb-md-5">
+            <div class="col-12 px-md-0">
                 <h1 class="greenTitle text-center mb-4">Estágios Obrigatórios</h1>
             </div>
-            <div class="col-4 d-none d-md-block m-auto">
+            <div class="col-4 d-none d-md-block m-auto pl-md-0">
                 <img class="mb-4" src="<?php bloginfo("template_directory"); ?>/assets/medicine.svg" alt="Ícone de médicos">
                 <p class="mt-5 mb-0">
                     Recomendamos que as COMGRAD’s sempre confirmem com a DEMA/ PROGRAD  a atualização do NÚMERO DE APÓLICE de SEGUROS vigente no semestre  e  toda e qualquer informação referente a alterações na documentação e nos procedimentos para assinatura de TCE’s e só adotem tais modificações mediante comunicação expressa desta Divisão.
                 </p>
             </div>
-            <div class="col-12 col-md-8">
-                <ul class="text-justify mb-0 px-0 p-md-5">
+            <div class="col-12 col-md-8 pr-md-0">
+                <ul class="text-justify mb-0 px-0">
                     <li class="pb-4">A matrícula na disciplina/atividade de estágio obrigatório é pré-requisito indispensável para assinatura dos Termos de Compromisso. Detalhes sobre como proceder à matrícula de alunos em Estágio podem ser acessados clicado aqui.</li>
 
                     <li class="pb-4">A Legislação maior que rege os Estágios é a <strong>Lei Federal  nº 11.788 de 25/10/2008</strong>, que pode ser acessada, clicando <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm" target="_blank" class="font-weight-bold">aqui</a>.</li>
@@ -45,10 +45,10 @@
                     <li>O <strong>TERMO DE COMPROMISSO</strong> dos estágios obrigatórios e não obrigatórios pode ser encontrado <a href="https://www.ufrgs.br/prograd/wp-content/uploads/2019/12/TCE-EO_ENO-UFRGS-para-preenchimento.Atualizado2017.pdf" target="_blank" class="font-weight-bold">aqui</a>.</li>
                 </ul>
             </div>
-            <div style="border-top: 2px solid black; width: 100%;" class="mx-3 my-5">
+            <div style="border-top: 2px solid black; width: 100%;" class="mx-3 mx-md-0 my-5">
             </div>
             <div>
-                <div class="col-12 px-3 p-md-5 text-justify">
+                <div class="col-12 px-3 px-md-0 text-justify">
                     <h3 class="fs-22 mb-4 font-weight-bold text-center">Estágios Obrigatórios na SECRETARIA DE ADMINISTRAÇÃO DE PORTO ALEGRE - Antiga SMA</h3>
                     <p>
                         Aqueles estágios com  preceptores vinculados à Secretaria de Administração /SMA (atual SMPG / Secretaria Municipal de Planejamento e Gestão), ainda permanecerão com o fluxo anterior, no formulário antigo em Word/ papel.
@@ -68,12 +68,12 @@
                         O <strong>Fluxo</strong> do SMA/SMPG pode ser acessado clicando <a href="<?php bloginfo("template_directory"); ?>/docs/procedimentos-estagios-SMA.pdf" target="_blank" class="font-weight-bold">aqui</a>.
                     </p>
                 </div>
-                <div class="col-12 px-3 pt-4 px-md-5 pb-md-5 pt-md-0 text-justify sms-estagios">
+                <div class="col-12 px-3 pt-4 px-md-0 text-justify sms-estagios">
                     <h3 class="fs-22 mb-4 font-weight-bold text-center">Estágios Obrigatórios na Secretaria Municipal de Saúde de Porto Alegre - SMS/POA</h3>
                     <p>
                         Para estágios que envolvam preceptores da Secretaria Municipal de Saúde de Porto Alegre, as Atividades Curriculares Obrigatórias em Serviço seguem a  <strong>Resolução 01/2018 da SMS/POA</strong>, que pode ser acessada  clicando <a href="<?php bloginfo("template_directory"); ?>/docs/resolucao01_2018.dopa21_06_2018.pdf" target="_blank" class="font-weight-bold">aqui</a>.
                     </p>
-                    <ul class="px-0">
+                    <ul class="px-0 mb-2">
                         <li class="pb-4">
                             O <strong>Termo de Cooperação Técnica</strong> firmado com a Secretaria Municipal de Saúde - SMS/POA, é vigente até julho de 2019. E pode ser acessado clicando <a href="<?php bloginfo("template_directory"); ?>/docs/Termo-de-Cooperacao-tecnica-SMS-2014-2019.pdf" target="_blank" class="font-weight-bold" class="font-weight-bold">aqui</a>.
                         </li>
@@ -84,7 +84,7 @@
                             O <strong>FLUXO</strong> para preenchimento e tramitação deste Formulário está descrito no <strong>Novo Tutorial</strong> bem detalhado, que pode ser acessado clicando <a href="<?php bloginfo("template_directory"); ?>/docs/Tutorial-Termo-Online-SMS-IMESF-31_10 para 2019-1.pdf" target="_blank" class="font-weight-bold">aqui</a>.
                         </li>
                     </ul>
-                    <h4 class="font-weight-bold">Observações</h4>
+                    <h4 class="font-weight-bold mb-4">Observações</h4>
                     <ol class="px-0">
                         <li class="pb-4">
                             Para atividades de “Entrevistas” ou “Visitas Técnicas à SMS/ POA, o Formulário é <strong>outro e físico</strong>. Baixar o PDF <a href="http://lproweb.procempa.com.br/pmpa/prefpoa/sms/usu_doc/formulario_solicitacao_visita_entrevista_protegido_4.2.pdf" class="font-weight-bold" target="_blank">aqui</a> ou no <a href="http://www2.portoalegre.rs.gov.br/sms" target="_blank" class="font-weight-bold">Site</a>. Clicar em › Conselhos e Comitês › Comissão Permanente de Ensino e Serviço › CPES › Item 4.3
@@ -97,7 +97,7 @@
                         </li>
                     </ol>
                 </div>
-                <div class="col-12 p-3 px-md-5 pb-md-5 pt-md-0 text-justify">
+                <div class="col-12 px-3 pt-2 px-md-0 pb-md-4 text-justify">
                     <h3 class="fs-22 font-weight-bold text-center">Estágios Obrigatórios na SECRETARIA ESTADUAL DE SAÚDE (DAS, Sanatório Paternon e Hospital São Pedro) - SES</h3>
                     <p>
                         Informamos novamente que a CoorSaúde e Prograd finalizaram  o termo aditivo ao Termo de Cooperação com a Secretaria Estadual de Saúde. Este Aditivo:
@@ -148,9 +148,9 @@
                         É indispensável que todos os campos estejam devidamente preenchidos, e que tenham sido conferidos pelo docente tutor do Estágio e por sua COMGRAD ao assinarem o Plano de Atividades e o Termo de Compromisso pactuado.
                     </p>
                 </div>
-                <div class="col-12 px-3 pt-2 px-md-5 pb-md-5 pt-md-0 text-justify">
+                <div class="col-12 px-3 pt-2 px-md-0 pb-md-4 pt-md-0 text-justify">
                     <h3 class="fs-22 font-weight-bold text-center mb-4">Estágios Obrigatórios na SECRETARIA MUNICIPAL DE SAÚDE DE CANOAS - SMS Canoas</h3>
-                    <ul class="pl-0">
+                    <ul class="pl-0 mb-0">
                         <li class="pb-4">
                             Processo UFRGS: 23078.020614.201766
                         </li>
@@ -183,9 +183,9 @@
                         Também é indispensável que todos os campos estejam devidamente preenchidos, e que tenham sido conferidos pelo docente tutor do Estágio e por sua COMGRAD ao assinarem o Plano de Atividades e o Termo de Compromisso pactuado.
                     </p>
                 </div>
-                <div class="col-12 px-3 pt-4 px-md-5 pb-md-5 pt-md-0 text-justify">
-                    <h3 class="fs-22 font-weight-bold text-center">Estágios Obrigatórios e Práticas Disciplinares GHC - Grupo Hospitalar Conceição</h3>
-                    <ul>
+                <div class="col-12 px-3 pt-4 px-md-0 pb-md-0 pt-md-0 text-justify">
+                    <h3 class="fs-22 font-weight-bold text-center mb-4">Estágios Obrigatórios e Práticas Disciplinares GHC - Grupo Hospitalar Conceição</h3>
+                    <ul class="pl-0">
                         <li class="pb-4">
                             Processo UFRGS: 23078.011801.2018-30
                         </li>
@@ -214,7 +214,7 @@
                     <p>
                         A matrícula na disciplina/atividade de estágio obrigatório é pré-requisito indispensável para assinatura dos termos pelo DEMA/ PROGRAD.
                     </p>
-                    <p>
+                    <p class="mb-md-0">
                         Também é indispensável que todos os campos estejam devidamente preenchidos, e que tenham sido conferidos pelo docente tutor do Estágio e por sua COMGRAD ao assinarem o Plano de Atividades e o Termo de Compromisso pactuado.
                     </p>
                 </div>
@@ -223,13 +223,13 @@
         <div class="row bloco-secundario-bg px-3">
             <div class="col-12 distrito text-white">
                 <div class="row">
-                    <div class="col-12 col-md-8 m-auto">
+                    <div class="col-12 col-md-8 m-auto pl-md-0">
                         <h2 class="text-uppercase font-weight-bold m-0">Novo Tutorial SMS para 2019</h2>
                         <p class="my-2 text-justify">
                             <a href="<?php bloginfo("template_directory"); ?>/docs/Tutorial-Termo-Online-SMS-IMESF - 31_10-para-2019-1.pdf" target="_blank" class="font-weight-bold">Aqui</a> você encontra um tutorial para preenchimento correto do Formulário FormSUS para os estágios junto à Secretaria Municipal de Saúde de Porto Alegre (SMS-Poa).
                         </p>
                     </div>
-                    <div class="col-4 d-none d-md-block my-3">
+                    <div class="col-4 d-none d-md-block my-3 pr-md-0">
                         <img src="<?php bloginfo("template_directory"); ?>/assets/tutorial.svg" alt="Ícone de tutorial digital.">
                     </div>
                 </div>

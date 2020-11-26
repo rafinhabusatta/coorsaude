@@ -47,7 +47,7 @@
 							<a class="nav-link" href="<?php echo site_url(); ?>/disciplinas-integradoras">Disciplinas Integradoras</a>
 						</li>
 						<li class="nav-item">
-							<a href="<?php echo site_url(); ?>/pagina-em-construcao" class="nav-link">Estágios</a>
+							<a href="<?php echo site_url(); ?>/estagios" class="nav-link">Estágios</a>
 						</li>
 						<!-- <li class="nav-item">
 							<a href="/pagina-em-construcao" class="nav-link">PET-Saúde</a>
