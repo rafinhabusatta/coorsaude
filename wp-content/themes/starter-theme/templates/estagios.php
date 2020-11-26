@@ -2,7 +2,7 @@
 <?php get_header(); ?>
     <div class="container-fluid">
         <div class="row bloco-secundario-bg px-3">
-            <div class="col-12 distrito text-white pt-5">
+            <div class="col-12 distrito text-white pt-5 estagios-header">
                 <div class="row">
                     <div class="col-12 col-md-8 m-auto pl-md-0">
                         <h2 class="text-uppercase font-weight-bold m-0"><span>ATENÇÃO:</span> Novo Fluxo de Estágios UFRGS na SMS Porto Alegre</h2>

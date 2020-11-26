@@ -9,6 +9,9 @@
 .page-header.cenarios-de-pratica{
     background: url(../assets/cenarios-de-pratica-header-mobile.svg) center/contain no-repeat;
 }
+.distrito.estagios-header{
+    background: url(../assets/estagios-header.svg) center/contain no-repeat;
+}
 /* BODY */
 body{
     font-family: Arial, sans-serif;
@@ -304,7 +307,7 @@ body{
         .bloco-container{
             padding: 48px;
         }
-        .page-header.cenarios-de-pratica{
+        .page-header.cenarios-de-pratica, .distrito.distrito.estagios-header{
             background: none;
         }
         /* Títulos */
