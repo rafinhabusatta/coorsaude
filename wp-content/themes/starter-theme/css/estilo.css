@@ -159,9 +159,9 @@ body{
         color: #4D78BA;
     }
 /* ESTÁGIOS */
-    .estagios{
+    /* .estagios{
         background-image: -webkit-linear-gradient(30deg, #47d39f 50%, #ffffff 50%);
-    }
+    } */
     .estagios ul, .sms-estagios ol, .estagios ol{
         list-style-type: none;
     }
