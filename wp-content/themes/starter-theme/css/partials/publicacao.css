@@ -51,18 +51,19 @@
 /* SINGLE-PUBLICACAO */
 .header-noticia{
     background-color: #58CCA4;
-    height: 200px;
+    height: auto;
 }
 
 .header-noticia h1{
     font-size: 32px;
+    padding: 48px 0 16px;
 }
 
-.header-noticia p{
+/* .header-noticia p{
     position: absolute;
     top: 88px;
     margin-bottom: 0;
-}
+} */
 
 @media(min-width: 576px){
     .post{
