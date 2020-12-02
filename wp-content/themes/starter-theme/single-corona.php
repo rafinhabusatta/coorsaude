@@ -9,8 +9,8 @@
                     <header class="row header-noticia header-corona text-center align-items-center">
                         <div class="col-12 position-relative">
                             <h1><?php the_title();?></h1>
-                            <div class="container-data">
-                            <p>
+                            <div class="container-data text-left">
+                            <p class="mb-0 pb-3">
                                 <?php 
                                     $data = get_field('data');
                                     if(!empty($data)){
