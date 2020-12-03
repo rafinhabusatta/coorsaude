@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/corona.css">
 
 		<!-- Favicons -->
-		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/icones/coorsaude.svg" >
+		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/icones/378.png" >
 
 		<title><?php wp_title();?></title>
 
