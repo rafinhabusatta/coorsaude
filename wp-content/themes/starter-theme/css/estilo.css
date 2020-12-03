@@ -9,6 +9,9 @@
 .page-header.cenarios-de-pratica{
     background: url(../assets/cenarios-de-pratica-header-mobile.svg) center/contain no-repeat;
 }
+.page-header.comite-gestor{
+    background: url(../assets/comite-gestor-header-mobile.svg) center/contain no-repeat;
+}
 .distrito.estagios-header{
     background: url(../assets/estagios-header.svg) center/contain no-repeat;
 }
@@ -97,7 +100,7 @@ body{
         background-size: cover;
     }
     .carousel img{
-        height: 200px;
+        height: auto;
     }
     .sobre{
         padding: 24px 16px 48px;
@@ -165,7 +168,7 @@ body{
     /* .estagios{
         background-image: -webkit-linear-gradient(30deg, #47d39f 50%, #ffffff 50%);
     } */
-    .estagios ul, .sms-estagios ol, .estagios ol{
+    .estagios ul, .sms-estagios ol, .estagios ol, .comite-participantes{
         list-style-type: none;
     }
 /* DISCIPLINAS INTEGRADORAS */
@@ -285,9 +288,9 @@ body{
         .bg-coor{
             height: 280px;
         }
-        .carousel img{
+        /* .carousel img{
             height: 280px;
-        }
+        } */
         /* Títulos */
         .coor{
             font-size: 85px;
@@ -307,7 +310,7 @@ body{
         .bloco-container{
             padding: 48px;
         }
-        .page-header.cenarios-de-pratica, .distrito.distrito.estagios-header{
+        .page-header.cenarios-de-pratica, .distrito.distrito.estagios-header, .page-header.comite-gestor{
             background: none;
         }
         /* Títulos */
@@ -348,9 +351,9 @@ body{
         .acoes-desenvolvidas{
             padding: 0 48px 5%;
         }
-        .carousel img{
+        /* .carousel img{
             height: 400px;
-        }
+        } */
         /* Rodapé */
         .footer-title{
             font-size: 22px;
@@ -418,9 +421,9 @@ body{
         .bg-coor{
             height: 450px;
         }
-        .carousel img{
+        /* .carousel img{
             height: 450px;
-        }
+        } */
         /* Regimento */
         .regimento{
             margin: 0 48px;
@@ -431,7 +434,7 @@ body{
         }
         /* COMITÊ GESTOR */
         #carousel-familiarizacao img{
-            height: 250px;
+            height: auto;
         }
         #carousel-pis1-2012-1 img, #carousel-pis1-2012-2 img, #carousel-pis1-2013-1 img, #carousel-pis1-2013-2 img{
             height: 300px;
@@ -520,9 +523,9 @@ body{
         .bg-coor{
             height: 550px;
         }
-        .carousel img{
+        /* .carousel img{
             height: 550px;
-        }
+        } */
         /* Títulos */
         .coor{
             font-size: 170px;
