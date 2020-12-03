@@ -2,9 +2,9 @@
 	<div class="container-fluid grid-footer px-lg-5">
 		<div class="row py-5 footer-1">
 			<div class="col-12 text-center">
-				<a href=""><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/facebook.svg" alt="Facebook"></a>
-				<a href=""><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/instagram.svg" alt="Instagram"></a>
-				<a href=""><img src="<?php bloginfo("template_directory"); ?>/assets/youtube.svg" alt="YouTube"></a>
+				<a href="" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/facebook.svg" alt="Facebook"></a>
+				<a href="https://www.instagram.com/coordsaude/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/instagram.svg" alt="Instagram"></a>
+				<a href="https://www.youtube.com/channel/UC-jg0G4tM3wIY3ElFNAp0oQ/featured" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/youtube.svg" alt="YouTube"></a>
 			</div>
 		</div>
 		<div class="row footer-2">
