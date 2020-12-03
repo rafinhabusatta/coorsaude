@@ -27,35 +27,37 @@
         </div>
     </div>
     <div class="row sobre">
-        <div class="col-12 col-md-6 px-md-0  order-md-2">
-            <h2 class="greenTitleSpecial text-center text-md-left mb-4">Sobre a CoorSaúde</h2>
+        <div class="col-12 px-md-0  order-md-2">
+            <img class="d-none d-md-block float-left w-50 mr-3" src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da fachada da Universidade Federal do Rio Grande do Sul">
+            <h2 class="greenTitleSpecial text-center text-md-left mb-4 d-inline">Sobre a CoorSaúde</h2>
             <p class="text-justify mb-md-0">
                 A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Graduação(ProGrad)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do<span id="dots-sobre" class="d-xl-none">...</span><span id="more-sobre" class="d-none d-xl-inline">
                     Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
                 </span>
-                <span id="more-sobre" class="d-none">
+                <!-- <span id="more-sobre" class="d-none"> -->
                     Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
-                </span>
-                <span class="font-weight-bold d-xl-none btn-leia" id="btn-sobre" onclick="ReadSobre()">Leia mais</span>
+                <!-- </span> -->
+                <!-- <span class="font-weight-bold d-xl-none btn-leia" id="btn-sobre" onclick="ReadSobre()">Leia mais</span> -->
             </p>
         </div>
-        <div class="col-12 col-md-6 text-md-left pl-md-0 order-md-1">
+        <div class="col-12 text-md-left pl-md-0 order-md-1 d-md-none">
             <img src="<?php bloginfo("template_directory"); ?>/img/ufrgs2.jpg" alt="Imagem da fachada da Universidade Federal do Rio Grande do Sul">
         </div>
     </div>
     <div class="acoes-bg px-3">
         <div class="row justify-content-between text-center acoes-desenvolvidas">
             <div class="col-12 mb-3">
-                <h2 class="greenTitle mt-4">Ações Desenvolvidas</h2>
+                <h2 class="greenTitle mt-4 d-lg-none">Ações Desenvolvidas</h2>
+                <h2 class="greenTitle mt-4 d-none d-lg-block">Ações de Integração Ensino-Serviço</h2>
             </div>
             <div class="col-12 col-md- col-lg-3 mb-5 box-sombra d-table caixa-acoes">
-                <p class="d-table-cell align-middle">Disciplinas Integradoras PIS I e PIS II</p>
+                <a href="<?php echo site_url(); ?>/disciplinas-integradoras#pis-I" class="d-table-cell align-middle">Disciplinas Integradoras PIS I e PIS II</a>
             </div>
             <div class="col-12 col-md- col-lg-3 mb-5 box-sombra d-table caixa-acoes">
-                <p class="d-table-cell align-middle">Comissão de Gestão e Acompanhamento Local (CGAL)</p>
+                <a href="<?php echo site_url(); ?>/comite-gestor" class="d-table-cell align-middle">Comissão de Gestão e Acompanhamento Local (CGAL)</a>
             </div>
             <div class="col-12 col-md- col-lg-3 mb-5 box-sombra d-table caixa-acoes">
-                <p class="d-table-cell align-middle">PET-Saúde na UFRGS</p>
+                <a href="<?php echo site_url(); ?>/cenarios-de-pratica" class="d-table-cell align-middle">Cenários de Prática</a>
             </div>
         </div>
     </div>
