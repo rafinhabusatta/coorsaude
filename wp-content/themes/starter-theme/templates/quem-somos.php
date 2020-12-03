@@ -1,26 +1,30 @@
 <!-- Template name: Quem-Somos -->
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="row p-3 p-md-5">
-        <div class="col-12">
-            <h2 class="greenTitle text-center mb-4">Quem Somos</h2>
-        </div>
-        <div class="col-12 col-md-8 my-auto">
-            <div class="p-3 p-md-5 box-sombra">
-                <p class="text-justify">
-                    A CoorSaúde é constituída pelas seguintes representações: dois docentes de cada um
-                    dos cursos da Saúde da UFRGS, indicados pelas respectivas Comissões de
-                    Graduação, dois docentes pela Pró-Reitoria de Graduação; um discente e um
-                    servidor técnico-administrativos, no cargo de Técnico em Assuntos Educacionais
-                    das Unidades participantes da Coordenadoria.
-                </p>
+    <div class="row bg-header">
+        <div class="col-12 page-header quem-somos">
+            <div class="row">
+                <div class="col-12 px-md-0">
+                    <h1 class="greenTitle text-center mb-4">Quem Somos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-8 px-md-0 m-xl-auto">
+                    <p class="text-justify">
+                        A CoorSaúde é constituída pelas seguintes representações: dois docentes de cada um
+                        dos cursos da Saúde da UFRGS, indicados pelas respectivas Comissões de
+                        Graduação, dois docentes pela Pró-Reitoria de Graduação; um discente e um
+                        servidor técnico-administrativos, no cargo de Técnico em Assuntos Educacionais
+                        das Unidades participantes da Coordenadoria.
+                    </p>
+                </div>
+                <div class="col-6 col-xl-4 d-none d-md-block pr-0 pl-4 my-auto">
+                    <img src="<?php bloginfo("template_directory"); ?>/assets/quem-somos-header.svg" alt="Ícone do espírito de time" class="mt-5">
+                </div>
             </div>
         </div>
-        <div class="col-4 d-none d-md-block">
-            <img src="<?php bloginfo("template_directory"); ?>/assets/team.svg" alt="Ícone do espírito de time" class="mt-5">
-        </div>
     </div>
-    <div class="row p-3 p-md-5 equipe justify-content-around">
+    <div class="row equipe justify-content-around bloco-container">
         <div class="col-12">
             <h2 class="greenTitle text-center mb-4">Equipe</h2>
         </div>
@@ -41,9 +45,6 @@
                     </h3>
                     <p class="mb-3">
                         <?php echo get_field("cargo")?>
-                    </p>
-                    <p>
-                        Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
                     </p>
                 </div>
             </div>
@@ -66,12 +67,13 @@
                     <p class="mb-3">
                         <?php echo get_field("cargo")?>
                     </p>
-                    <p>
-                        Contato: <a class="font-weight-bold" href="mailto: <?php echo get_field("contato")?>"><?php echo get_field("contato")?></a>
-                    </p>
                 </div>
             </div>
         <?php endwhile; endif; ?>
+        <div class="col-12">
+            <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Entre em contato pelo Email</h3>
+            <a class="font-weight-bold" href="mailto:coordsaude@ufrgs.br">coordsaude@ufrgs.br</a>
+        </div>
         <div class="col-12">
             <h3 class="font-weight-bold text-uppercase equipe-nomes my-3">Membros da CoorSaúde Representantes das COMGRADS</h3>
         </div>
@@ -110,7 +112,6 @@
         $html .= '<div class="b-left box-equipe">';
         $html .= '<h3 class="font-weight-bold">$nome</h3>';
         $html .= '<p class="mb-3">$cargo</p>';
-        $html .= '<p> Contato: <a class="font-weight-bold" href="mailto: $contato">$contato</a></p>';
         $html .= '</div>';
         $html .= '</div>';
     }
