@@ -21,6 +21,9 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/publicacao.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/corona.css">
 
+		<!-- Favicons -->
+		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/icones/coorsaude.svg" >
+
 		<title><?php wp_title();?></title>
 
 		<?php wp_head(); ?>
