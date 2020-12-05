@@ -10,14 +10,14 @@
                         <div class="col-12 position-relative">
                             <h1><?php the_title();?></h1>
                             <div class="container-data text-left">
-                            <p class="publicacao-data mb-0 pb-3">
-                                <?php 
-                                    $data = get_field('data');
-                                    if(!empty($data)){
-                                        echo $data; 
-                                    } 
-                                ?>
-                            </p>
+                                <p class="publicacao-data mb-0 pb-3">
+                                    <?php 
+                                        $data = get_field('data');
+                                        if(!empty($data)){
+                                            echo $data; 
+                                        } 
+                                    ?>
+                                </p>
                             </div>
                         </div>
                     </header>

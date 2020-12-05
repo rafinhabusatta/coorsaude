@@ -1,6 +1,9 @@
 .header-corona{
     background-color: #7EA1C1;
 }
+.grid-header{
+    display: grid;
+}
 .post-corona{
     background-color: #7EA1C1;
     /* width: 300px; */
