@@ -110,9 +110,6 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .publicacao-data{
-        margin-left: 29px;
-    }
     .ml-100{
         margin-left: 100px;
     }
@@ -200,9 +197,6 @@
         max-width: 800px;
         padding-left: 0;
         padding-right: 0;
-    }
-    .publicacao-data{
-        margin-left: 0;
     }
     .container-data{
         max-width: 955px;
