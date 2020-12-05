@@ -47,7 +47,7 @@
                                 </li>
                             </ul>
                         </section>
-                        <section class="row section-noticia mx-0 mt-4 text-justify">
+                        <section class="row section-noticia mx-0 text-justify">
                             <div class="col-12">
                                 <p>
                                     <?php the_content();?> 
