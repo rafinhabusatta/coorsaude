@@ -8,13 +8,13 @@
                 <article <?php post_class() ;?> id="post-<?php the_ID(); ?>">
                     <header class="row header-noticia header-corona text-center">
                         <div class="col-12 position-relative page-header grid-header">
-                            <div class="row">
+                            <div class="row align-self-end">
                                 <div class="col-12">
                                     <h1><?php the_title();?></h1>
                                 </div>
                             </div>
-                            <div class="row w-100">
-                                <div class="col-12 container-data align-self-end">
+                            <div class="row w-100 align-self-end">
+                                <div class="col-12 container-data">
                                     <p class="mb-0 text-left">
                                         <?php 
                                             $data = get_field('data');
