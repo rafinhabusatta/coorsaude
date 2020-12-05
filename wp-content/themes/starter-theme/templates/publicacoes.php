@@ -20,7 +20,7 @@
                     
                         <a href="<?php the_permalink(); ?>">
                             <div class="post">
-                                <h2 class="titulo"><?php the_title() ?></h2>
+                                <h2 class="titulo p-4"><?php the_title() ?></h2>
                             </div>
                         </a>
                 <?php endwhile; endif; ?>
