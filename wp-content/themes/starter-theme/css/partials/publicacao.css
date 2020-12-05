@@ -157,28 +157,6 @@
         margin-bottom: 16px;
     }
 
-    .social-list .social-item a{
-        width: 55px;
-        height: 55px;
-        background-color: #F1F3F5;
-        text-align: center;
-        line-height: 52px;
-        font-size: 35px;;
-        display: block;
-        border-radius: 50%;
-        position: relative;
-        overflow: hidden;
-        border: 3px solid #F1F3F5;
-        z-index: 1;
-    }
-
-    .social-list .social-item a .icon{
-        position: relative;
-        color: #707070;
-        transition: .5s;
-        z-index: 3;
-    }
-
     .social-list .social-item a:hover .icon{
         color: #ffffff;
         transform: rotateY(360deg);
