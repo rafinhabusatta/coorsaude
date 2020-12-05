@@ -6,18 +6,24 @@
         <div class="col-12">
             <?php while ( have_posts() ) : the_post(); ?>
                 <article <?php post_class() ;?> id="post-<?php the_ID(); ?>">
-                    <header class="row header-noticia header-corona text-center align-items-center">
-                        <div class="col-12 position-relative">
-                            <h1><?php the_title();?></h1>
-                            <div class="container-data text-left">
-                            <p class="mb-0 pb-3">
-                                <?php 
-                                    $data = get_field('data');
-                                    if(!empty($data)){
-                                        echo $data; 
-                                    } 
-                                ?>
-                            </p>
+                    <header class="row header-noticia header-corona text-center">
+                        <div class="col-12 position-relative page-header grid-header">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1><?php the_title();?></h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 container-data align-self-end">
+                                    <p class="mb-0 text-left">
+                                        <?php 
+                                            $data = get_field('data');
+                                            if(!empty($data)){
+                                                echo $data; 
+                                            } 
+                                        ?>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </header>

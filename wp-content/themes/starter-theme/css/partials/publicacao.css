@@ -51,12 +51,13 @@
 /* SINGLE-PUBLICACAO */
 .header-noticia{
     background-color: #58CCA4;
+    padding: 0 15px;
     height: auto;
+    min-height: 200px;
 }
 
 .header-noticia h1{
     font-size: 32px;
-    padding: 48px 0 16px;
 }
 
 /* .header-noticia p{
@@ -81,7 +82,8 @@
     }
     /* SINGLE-PUBLICACAO */
     .header-noticia{
-        height: 300px;
+        height: auto;
+        min-height: 300px;
     }
     .header-noticia p{
         top: 138px;
@@ -95,7 +97,8 @@
     }
     /* SINGLE-PUBLICAO */
     .header-noticia{
-        height: 323px;
+        height: auto;
+        min-height: 323px;
     }
     .header-noticia h1{
         font-size: 44px;
@@ -186,7 +189,8 @@
     }
     /* SINGLE-PUBLICACAO */
     .header-noticia{
-        height: 332px;
+        height: auto;
+        min-height: 332px;
     }
     .section-noticia{
         margin: 0;
