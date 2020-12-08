@@ -49,7 +49,7 @@
 			<div class="col-12">			
 				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Contato</h2></a>
 				<ul>
-					<li>Telefone:<a href="">(51) 3308.5512</a></li>
+					<li>Telefone:<a href="tel:5133085512">(51) 3308.5512</a></li>
 					<li>Email: <a href="mailto:coordsaude@ufrgs.br">coordsaude@ufrgs.br</a></li>
 				</ul>	
 			</div>

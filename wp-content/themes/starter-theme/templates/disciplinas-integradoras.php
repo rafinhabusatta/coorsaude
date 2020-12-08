@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <div class="col-6 col-xl-4 d-none d-md-block pr-0">
-                    <img src="<?php bloginfo("template_directory"); ?>/assets/cenarios-de-pratica-header.svg" alt="Ícone do espírito de time">
+                    <img src="<?php bloginfo("template_directory"); ?>/assets/disciplinas-integradoras-header.svg" alt="Ícone do espírito de time">
                 </div>
             </div>
         </div>

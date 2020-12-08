@@ -15,6 +15,9 @@
 .page-header.quem-somos{
     background: url(../assets/quem-somos-header-mobile.svg) center/contain no-repeat;
 }
+.page-header.disciplinas-integradoras{
+    background: url(../assets/disciplinas-integradoras-header-mobile.svg) center/contain no-repeat;
+}
 .distrito.estagios-header{
     background: url(../assets/estagios-header.svg) center/contain no-repeat;
 }
@@ -313,7 +316,11 @@ body{
         .bloco-container{
             padding: 48px;
         }
-        .page-header.cenarios-de-pratica, .distrito.distrito.estagios-header, .page-header.comite-gestor, .page-header.quem-somos{
+        .page-header.cenarios-de-pratica,
+        .distrito.distrito.estagios-header,
+        .page-header.comite-gestor,
+        .page-header.quem-somos,
+        .page-header.disciplinas-integradoras{
             background: none;
         }
         /* Títulos */

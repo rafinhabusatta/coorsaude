@@ -18,7 +18,7 @@
                 ?>
                 <?php if ($coronavirus -> have_posts()) : while ($coronavirus -> have_posts()) : $coronavirus -> the_post(); ?>
                     
-                        <a href="<?php the_permalink(); ?>">
+                        <a href="<?php the_permalink(); ?>" class="corona-card-mobile">
                             <div class="post-corona p-4">
                                 <div class="text-center">
                                     <img src="<?php bloginfo("template_directory"); ?>/assets/covid-192.png" alt="Ilustração do Coronavírus"  width="252" height="126">

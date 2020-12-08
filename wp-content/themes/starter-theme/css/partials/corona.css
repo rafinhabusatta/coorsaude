@@ -41,3 +41,9 @@
     text-align: left;
     margin: 0;
 }
+
+@media(max-width:576px){
+    .corona-card-mobile{
+        width: 300px;
+    }
+}
