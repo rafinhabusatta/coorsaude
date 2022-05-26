@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package starter-theme
+ * @package coorsaude-theme
  */
 
 /**
@@ -28,7 +28,7 @@ function starter_theme_jetpack_setup() {
 	// Add theme support for Content Options.
 	add_theme_support( 'jetpack-content-options', array(
 		'post-details'    => array(
-			'stylesheet' => 'starter-theme-style',
+			'stylesheet' => 'coorsaude-theme-style',
 			'date'       => '.posted-on',
 			'categories' => '.cat-links',
 			'tags'       => '.tags-links',
