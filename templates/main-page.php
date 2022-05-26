@@ -34,10 +34,6 @@
                 A Coordenadoria da Saúde (CoorSaúde) da UFRGS é uma instância vinculada à <a class="font-weight-bold" href="https://www.ufrgs.br/prograd/" target="_blank">Pró-Reitoria de Ensino (ProEns)</a>,  cuja missão é integrar os cursos da saúde e articular as relações da Universidade com a rede do<span id="dots-sobre" class="d-xl-none">...</span><span id="more-sobre" class="d-none d-xl-inline">
                     Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
                 </span>
-                <!-- <span id="more-sobre" class="d-none"> -->
-                    Sistema Único de Saúde (SUS). Suas ações buscam a facilitação do desenvolvimento de um Projeto Pedagógico Institucional que atenda às Diretrizes Curriculares Nacionais (DCN) dos cursos da saúde e a qualificação do SUS.
-                <!-- </span> -->
-                <!-- <span class="font-weight-bold d-xl-none btn-leia" id="btn-sobre" onclick="ReadSobre()">Leia mais</span> -->
             </p>
         </div>
         <div class="col-12 text-md-left pl-md-0 order-md-1 d-md-none">
