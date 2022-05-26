@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-8 px-md-0 m-xl-auto">
                     <p class="text-justify">
-                        Frase sobre os grupos de trabalho.
+                        Grupos de Trabalho CoorSaúde (Estágios Intercursos, ERER, Bioética,  Seminário CoorSaúde e SMS/POA).
                     </p>
                 </div>
                 <div class="col-6 col-xl-4 d-none d-md-block pr-0 pl-4 my-auto">
